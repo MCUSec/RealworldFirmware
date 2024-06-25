@@ -1,0 +1,120 @@
+{
+    "methods": [
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: void <init>(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: org.eclipse.californium.core.CoapResponse post(byte[],int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: org.eclipse.californium.core.CoapResponse post(java.lang.String,int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: void post(org.eclipse.californium.core.CoapHandler,java.lang.String,int)>",
+            "parameterIndexes": [0,1,2]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: org.eclipse.californium.core.CoapResponse post(byte[],int,int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: org.eclipse.californium.core.CoapResponse post(java.lang.String,int,int)>",
+            "parameterIndexes": [0,1,2]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: void post(org.eclipse.californium.core.CoapHandler,byte[],int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: void post(org.eclipse.californium.core.CoapHandler,byte[],int,int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: void post(org.eclipse.californium.core.CoapHandler,java.lang.String,int,int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: void get(org.eclipse.californium.core.CoapHandler,int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: org.eclipse.californium.core.CoapResponse get(int)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: void get(org.eclipse.californium.core.CoapHandler)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: org.eclipse.californium.core.CoapResponse put(java.lang.String,int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: org.eclipse.californium.core.CoapResponse put(byte[],int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: void put(org.eclipse.californium.core.CoapHandler,java.lang.String,int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: void put(org.eclipse.californium.core.CoapHandler,byte[],int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: java.util.Set discover(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: org.eclipse.californium.core.CoapClient setURI(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: org.eclipse.californium.core.CoapClient$Builder create()>",
+            "parameterIndexes": [-2]
+        },
+        {
+            "method": "<com.google.iot.coap.Client: void <init>(com.google.iot.coap.LocalEndpointManager,java.lang.String)>",
+            "parameterIndexes": [1]
+        },
+        {
+            "method": "<com.google.iot.coap.RequestBuilder: com.google.iot.coap.RequestBuilder setPayload(byte[])>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.google.iot.coap.RequestBuilder: com.google.iot.coap.RequestBuilder changePath(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.ws4d.coap.core.connection.api.CoapChannelManager: org.ws4d.coap.core.connection.api.CoapClientChannel connect(org.ws4d.coap.core.CoapClient,java.net.InetAddress,int)>",
+            "parameterIndexes": [1,2]
+        },
+        {
+            "method": "<org.ws4d.coap.core.connection.api.CoapClientChannel: org.ws4d.coap.core.messages.api.CoapRequest createRequest(org.ws4d.coap.core.enumerations.CoapRequestCode,java.lang.String,boolean)>",
+            "parameterIndexes": [0,1,2]
+        },
+        {
+            "method": "<org.ws4d.coap.core.connection.api.CoapClientChannel: org.ws4d.coap.core.messages.api.CoapRequest createRequest(org.ws4d.coap.core.enumerations.CoapRequestCode,java.lang.String,boolean)>",
+            "parameterIndexes": [0,1,2]
+        },
+        {
+            "method": "<org.ws4d.coap.core.rest.CoapData: void <init>(java.lang.String,org.ws4d.coap.core.enumerations.CoapMediaType)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.ws4d.coap.core.messages.api.CoapRequest: void setPayload(org.ws4d.coap.core.rest.CoapData)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.ws4d.coap.core.messages.api.CoapRequest: void addAccept(org.ws4d.coap.core.enumerations.CoapMediaType)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.ws4d.coap.core.messages.api.CoapRequest: void setContentType(org.ws4d.coap.core.enumerations.CoapMediaType)>",
+            "parameterIndexes": [0]
+        }
+    ]
+}

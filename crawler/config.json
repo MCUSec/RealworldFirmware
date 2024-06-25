@@ -1,0 +1,10 @@
+{
+    "project_folder": "",
+    "crawler": {
+        "input_folder": "otacap/output-jsons",
+        "intermediate_folder": "crawler/intermediate-results",
+        "output_folder": "crawler/httpftp/results/jsons",
+        "http_folder": "crawler/httpftp/source",
+        "files_folder": "crawler/httpftp/results/files"
+    }
+}

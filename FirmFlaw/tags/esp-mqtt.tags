@@ -1,0 +1,153 @@
+__anone8cb8b190102	host_test/main/test_mqtt_client.cpp	/^{$/;"	f	file:
+append_message_id	lib/mqtt5_msg.c	/^static uint16_t append_message_id(mqtt_connection_t *connection, uint16_t message_id)$/;"	f	typeref:typename:uint16_t	file:
+append_message_id	lib/mqtt_msg.c	/^static uint16_t append_message_id(mqtt_connection_t *connection, uint16_t message_id)$/;"	f	typeref:typename:uint16_t	file:
+append_property	lib/mqtt5_msg.c	/^static int append_property(mqtt_connection_t *connection, uint8_t property_type, uint8_t len_occ/;"	f	typeref:typename:int	file:
+append_string	lib/mqtt_msg.c	/^static int append_string(mqtt_connection_t *connection, const char *string, int len)$/;"	f	typeref:typename:int	file:
+create_client_data	mqtt_client.c	/^static bool create_client_data(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:bool	file:
+create_string	mqtt_client.c	/^static char *create_string(const char *ptr, int len)$/;"	f	typeref:typename:char *	file:
+deliver_publish	mqtt_client.c	/^static esp_err_t deliver_publish(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:esp_err_t	file:
+deliver_suback	mqtt_client.c	/^static esp_err_t deliver_suback(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:esp_err_t	file:
+esp_mqtt5_client_delete_topic_alias	mqtt5_client.c	/^static void esp_mqtt5_client_delete_topic_alias(mqtt5_topic_alias_handle_t topic_alias_handle)$/;"	f	typeref:typename:void	file:
+esp_mqtt5_client_delete_user_property	mqtt5_client.c	/^void esp_mqtt5_client_delete_user_property(mqtt5_user_property_handle_t user_property)$/;"	f	typeref:typename:void
+esp_mqtt5_client_destory	mqtt5_client.c	/^void esp_mqtt5_client_destory(esp_mqtt5_client_handle_t client)$/;"	f	typeref:typename:void
+esp_mqtt5_client_get_topic_alias	mqtt5_client.c	/^static char *esp_mqtt5_client_get_topic_alias(mqtt5_topic_alias_handle_t topic_alias_handle, uin/;"	f	typeref:typename:char *	file:
+esp_mqtt5_client_get_user_property	mqtt5_client.c	/^esp_err_t esp_mqtt5_client_get_user_property(mqtt5_user_property_handle_t user_property, esp_mqt/;"	f	typeref:typename:esp_err_t
+esp_mqtt5_client_get_user_property_count	mqtt5_client.c	/^uint8_t esp_mqtt5_client_get_user_property_count(mqtt5_user_property_handle_t user_property)$/;"	f	typeref:typename:uint8_t
+esp_mqtt5_client_publish_check	mqtt5_client.c	/^esp_err_t esp_mqtt5_client_publish_check(esp_mqtt5_client_handle_t client, int qos, int retain)$/;"	f	typeref:typename:esp_err_t
+esp_mqtt5_client_set_connect_property	mqtt5_client.c	/^esp_err_t esp_mqtt5_client_set_connect_property(esp_mqtt5_client_handle_t client, const esp_mqtt/;"	f	typeref:typename:esp_err_t
+esp_mqtt5_client_set_disconnect_property	mqtt5_client.c	/^esp_err_t esp_mqtt5_client_set_disconnect_property(esp_mqtt5_client_handle_t client, const esp_m/;"	f	typeref:typename:esp_err_t
+esp_mqtt5_client_set_publish_property	mqtt5_client.c	/^esp_err_t esp_mqtt5_client_set_publish_property(esp_mqtt5_client_handle_t client, const esp_mqtt/;"	f	typeref:typename:esp_err_t
+esp_mqtt5_client_set_subscribe_property	mqtt5_client.c	/^esp_err_t esp_mqtt5_client_set_subscribe_property(esp_mqtt5_client_handle_t client, const esp_mq/;"	f	typeref:typename:esp_err_t
+esp_mqtt5_client_set_unsubscribe_property	mqtt5_client.c	/^esp_err_t esp_mqtt5_client_set_unsubscribe_property(esp_mqtt5_client_handle_t client, const esp_/;"	f	typeref:typename:esp_err_t
+esp_mqtt5_client_set_user_property	mqtt5_client.c	/^esp_err_t esp_mqtt5_client_set_user_property(mqtt5_user_property_handle_t *user_property, esp_mq/;"	f	typeref:typename:esp_err_t
+esp_mqtt5_client_subscribe_check	mqtt5_client.c	/^esp_err_t esp_mqtt5_client_subscribe_check(esp_mqtt5_client_handle_t client, int qos)$/;"	f	typeref:typename:esp_err_t
+esp_mqtt5_client_update_topic_alias	mqtt5_client.c	/^static esp_err_t esp_mqtt5_client_update_topic_alias(mqtt5_topic_alias_handle_t topic_alias_hand/;"	f	typeref:typename:esp_err_t	file:
+esp_mqtt5_create_default_config	mqtt5_client.c	/^esp_err_t esp_mqtt5_create_default_config(esp_mqtt5_client_handle_t client)$/;"	f	typeref:typename:esp_err_t
+esp_mqtt5_decrement_packet_counter	mqtt5_client.c	/^void esp_mqtt5_decrement_packet_counter(esp_mqtt5_client_handle_t client)$/;"	f	typeref:typename:void
+esp_mqtt5_get_publish_data	mqtt5_client.c	/^esp_err_t esp_mqtt5_get_publish_data(esp_mqtt5_client_handle_t client, uint8_t *msg_buf, size_t /;"	f	typeref:typename:esp_err_t
+esp_mqtt5_increment_packet_counter	mqtt5_client.c	/^void esp_mqtt5_increment_packet_counter(esp_mqtt5_client_handle_t client)$/;"	f	typeref:typename:void
+esp_mqtt5_parse_connack	mqtt5_client.c	/^esp_err_t esp_mqtt5_parse_connack(esp_mqtt5_client_handle_t client, int *connect_rsp_code)$/;"	f	typeref:typename:esp_err_t
+esp_mqtt5_parse_puback	mqtt5_client.c	/^void esp_mqtt5_parse_puback(esp_mqtt5_client_handle_t client)$/;"	f	typeref:typename:void
+esp_mqtt5_parse_pubcomp	mqtt5_client.c	/^void esp_mqtt5_parse_pubcomp(esp_mqtt5_client_handle_t client)$/;"	f	typeref:typename:void
+esp_mqtt5_parse_suback	mqtt5_client.c	/^void esp_mqtt5_parse_suback(esp_mqtt5_client_handle_t client)$/;"	f	typeref:typename:void
+esp_mqtt5_parse_unsuback	mqtt5_client.c	/^void esp_mqtt5_parse_unsuback(esp_mqtt5_client_handle_t client)$/;"	f	typeref:typename:void
+esp_mqtt5_print_error_code	mqtt5_client.c	/^static void esp_mqtt5_print_error_code(esp_mqtt5_client_handle_t client, int code)$/;"	f	typeref:typename:void	file:
+esp_mqtt5_user_property_copy	mqtt5_client.c	/^static esp_err_t esp_mqtt5_user_property_copy(mqtt5_user_property_handle_t user_property_new, co/;"	f	typeref:typename:esp_err_t	file:
+esp_mqtt_abort_connection	mqtt_client.c	/^static void esp_mqtt_abort_connection(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:void	file:
+esp_mqtt_check_cfg_conflict	mqtt_client.c	/^static esp_err_t esp_mqtt_check_cfg_conflict(const mqtt_config_storage_t *cfg, const esp_mqtt_cl/;"	f	typeref:typename:esp_err_t	file:
+esp_mqtt_client_create_transport	mqtt_client.c	/^static esp_err_t esp_mqtt_client_create_transport(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:esp_err_t	file:
+esp_mqtt_client_destroy	mqtt_client.c	/^esp_err_t esp_mqtt_client_destroy(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:esp_err_t
+esp_mqtt_client_disconnect	mqtt_client.c	/^esp_err_t esp_mqtt_client_disconnect(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:esp_err_t
+esp_mqtt_client_dispatch_transport_error	mqtt_client.c	/^static void esp_mqtt_client_dispatch_transport_error(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:void	file:
+esp_mqtt_client_enqueue	mqtt_client.c	/^int esp_mqtt_client_enqueue(esp_mqtt_client_handle_t client, const char *topic, const char *data/;"	f	typeref:typename:int
+esp_mqtt_client_get_outbox_size	mqtt_client.c	/^int esp_mqtt_client_get_outbox_size(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:int
+esp_mqtt_client_init	mqtt_client.c	/^esp_mqtt_client_handle_t esp_mqtt_client_init(const esp_mqtt_client_config_t *config)$/;"	f	typeref:typename:esp_mqtt_client_handle_t
+esp_mqtt_client_ping	mqtt_client.c	/^static esp_err_t esp_mqtt_client_ping(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:esp_err_t	file:
+esp_mqtt_client_publish	mqtt_client.c	/^int esp_mqtt_client_publish(esp_mqtt_client_handle_t client, const char *topic, const char *data/;"	f	typeref:typename:int
+esp_mqtt_client_reconnect	mqtt_client.c	/^esp_err_t esp_mqtt_client_reconnect(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:esp_err_t
+esp_mqtt_client_register_event	mqtt_client.c	/^esp_err_t esp_mqtt_client_register_event(esp_mqtt_client_handle_t client, esp_mqtt_event_id_t ev/;"	f	typeref:typename:esp_err_t
+esp_mqtt_client_set_uri	mqtt_client.c	/^esp_err_t esp_mqtt_client_set_uri(esp_mqtt_client_handle_t client, const char *uri)$/;"	f	typeref:typename:esp_err_t
+esp_mqtt_client_start	mqtt_client.c	/^esp_err_t esp_mqtt_client_start(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:esp_err_t
+esp_mqtt_client_stop	mqtt_client.c	/^esp_err_t esp_mqtt_client_stop(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:esp_err_t
+esp_mqtt_client_subscribe_multiple	mqtt_client.c	/^int esp_mqtt_client_subscribe_multiple(esp_mqtt_client_handle_t client,$/;"	f	typeref:typename:int
+esp_mqtt_client_subscribe_single	mqtt_client.c	/^int esp_mqtt_client_subscribe_single(esp_mqtt_client_handle_t client, const char *topic, int qos/;"	f	typeref:typename:int
+esp_mqtt_client_unregister_event	mqtt_client.c	/^esp_err_t esp_mqtt_client_unregister_event(esp_mqtt_client_handle_t client, esp_mqtt_event_id_t /;"	f	typeref:typename:esp_err_t
+esp_mqtt_client_unsubscribe	mqtt_client.c	/^int esp_mqtt_client_unsubscribe(esp_mqtt_client_handle_t client, const char *topic)$/;"	f	typeref:typename:int
+esp_mqtt_connect	mqtt_client.c	/^static esp_err_t esp_mqtt_connect(esp_mqtt_client_handle_t client, int timeout_ms)$/;"	f	typeref:typename:esp_err_t	file:
+esp_mqtt_destroy_config	mqtt_client.c	/^void esp_mqtt_destroy_config(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:void
+esp_mqtt_dispatch_custom_event	mqtt_client.c	/^esp_err_t esp_mqtt_dispatch_custom_event(esp_mqtt_client_handle_t client, esp_mqtt_event_t *even/;"	f	typeref:typename:esp_err_t
+esp_mqtt_dispatch_event	mqtt_client.c	/^static esp_err_t esp_mqtt_dispatch_event(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:esp_err_t	file:
+esp_mqtt_dispatch_event_with_msgid	mqtt_client.c	/^static esp_err_t esp_mqtt_dispatch_event_with_msgid(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:esp_err_t	file:
+esp_mqtt_handle_transport_read_error	mqtt_client.c	/^static int esp_mqtt_handle_transport_read_error(int err, esp_mqtt_client_handle_t client, bool m/;"	f	typeref:typename:int	file:
+esp_mqtt_set_cert_key_data	mqtt_client.c	/^static esp_err_t esp_mqtt_set_cert_key_data(esp_transport_handle_t ssl, enum esp_mqtt_ssl_cert_k/;"	f	typeref:typename:esp_err_t	file:
+esp_mqtt_set_config	mqtt_client.c	/^esp_err_t esp_mqtt_set_config(esp_mqtt_client_handle_t client, const esp_mqtt_client_config_t *c/;"	f	typeref:typename:esp_err_t
+esp_mqtt_set_if_config	mqtt_client.c	/^bool esp_mqtt_set_if_config(char const *const new_config, char **old_config)$/;"	f	typeref:typename:bool
+esp_mqtt_set_ssl_transport_properties	mqtt_client.c	/^static esp_err_t esp_mqtt_set_ssl_transport_properties(esp_transport_list_handle_t transport_lis/;"	f	typeref:typename:esp_err_t	file:
+esp_mqtt_task	mqtt_client.c	/^static void esp_mqtt_task(void *pv)$/;"	f	typeref:typename:void	file:
+esp_mqtt_write	mqtt_client.c	/^static inline esp_err_t esp_mqtt_write(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:esp_err_t	file:
+esp_tls_get_and_clear_last_error	host_test/main/test_mqtt_client.cpp	/^    esp_err_t esp_tls_get_and_clear_last_error(esp_tls_error_handle_t h, int *esp_tls_code, int /;"	f	typeref:typename:esp_err_t
+fail_message	lib/mqtt5_msg.c	/^static mqtt_message_t *fail_message(mqtt_connection_t *connection)$/;"	f	typeref:typename:mqtt_message_t *	file:
+fail_message	lib/mqtt_msg.c	/^static mqtt_message_t *fail_message(mqtt_connection_t *connection)$/;"	f	typeref:typename:mqtt_message_t *	file:
+fini_message	lib/mqtt5_msg.c	/^static mqtt_message_t *fini_message(mqtt_connection_t *connection, int type, int dup, int qos, i/;"	f	typeref:typename:mqtt_message_t *	file:
+fini_message	lib/mqtt_msg.c	/^static mqtt_message_t *fini_message(mqtt_connection_t *connection, int type, int dup, int qos, i/;"	f	typeref:typename:mqtt_message_t *	file:
+generate_variable_len	lib/mqtt5_msg.c	/^static void generate_variable_len(size_t len, uint8_t *len_bytes, uint8_t *encoded_lens)$/;"	f	typeref:typename:void	file:
+get_variable_len	lib/mqtt5_msg.c	/^static size_t get_variable_len(uint8_t *buffer, size_t offset, size_t buffer_length, uint8_t *le/;"	f	typeref:typename:size_t	file:
+has_timed_out	mqtt_client.c	/^static inline bool has_timed_out(uint64_t last_tick, uint64_t timeout)$/;"	f	typeref:typename:bool	file:
+init_message	lib/mqtt5_msg.c	/^static int init_message(mqtt_connection_t *connection)$/;"	f	typeref:typename:int	file:
+make_publish	mqtt_client.c	/^static int make_publish(esp_mqtt_client_handle_t client, const char *topic, const char *data,$/;"	f	typeref:typename:int	file:
+max_poll_timeout	mqtt_client.c	/^static inline int max_poll_timeout(esp_mqtt_client_handle_t client, int max_timeout)$/;"	f	typeref:typename:int	file:
+mqtt5_get_id	lib/mqtt5_msg.c	/^uint16_t mqtt5_get_id(uint8_t *buffer, size_t length)$/;"	f	typeref:typename:uint16_t
+mqtt5_get_puback_data	lib/mqtt5_msg.c	/^char *mqtt5_get_puback_data(uint8_t *buffer, size_t *length, mqtt5_user_property_handle_t *user_/;"	f	typeref:typename:char *
+mqtt5_get_publish_property_payload	lib/mqtt5_msg.c	/^char *mqtt5_get_publish_property_payload(uint8_t *buffer, size_t buffer_length, char **msg_topic/;"	f	typeref:typename:char *
+mqtt5_get_suback_data	lib/mqtt5_msg.c	/^char *mqtt5_get_suback_data(uint8_t *buffer, size_t *length, mqtt5_user_property_handle_t *user_/;"	f	typeref:typename:char *
+mqtt5_msg_connect	lib/mqtt5_msg.c	/^mqtt_message_t *mqtt5_msg_connect(mqtt_connection_t *connection, mqtt_connect_info_t *info, esp_/;"	f	typeref:typename:mqtt_message_t *
+mqtt5_msg_disconnect	lib/mqtt5_msg.c	/^mqtt_message_t *mqtt5_msg_disconnect(mqtt_connection_t *connection, esp_mqtt5_disconnect_propert/;"	f	typeref:typename:mqtt_message_t *
+mqtt5_msg_get_reason_code	lib/mqtt5_msg.c	/^int mqtt5_msg_get_reason_code(uint8_t *buffer, size_t length)$/;"	f	typeref:typename:int
+mqtt5_msg_get_user_property	lib/mqtt5_msg.c	/^static mqtt5_user_property_handle_t mqtt5_msg_get_user_property(uint8_t *buffer, size_t buffer_l/;"	f	typeref:typename:mqtt5_user_property_handle_t	file:
+mqtt5_msg_parse_connack_property	lib/mqtt5_msg.c	/^esp_err_t mqtt5_msg_parse_connack_property(uint8_t *buffer, size_t buffer_len, mqtt_connect_info/;"	f	typeref:typename:esp_err_t
+mqtt5_msg_puback	lib/mqtt5_msg.c	/^mqtt_message_t *mqtt5_msg_puback(mqtt_connection_t *connection, uint16_t message_id)$/;"	f	typeref:typename:mqtt_message_t *
+mqtt5_msg_pubcomp	lib/mqtt5_msg.c	/^mqtt_message_t *mqtt5_msg_pubcomp(mqtt_connection_t *connection, uint16_t message_id)$/;"	f	typeref:typename:mqtt_message_t *
+mqtt5_msg_publish	lib/mqtt5_msg.c	/^mqtt_message_t *mqtt5_msg_publish(mqtt_connection_t *connection, const char *topic, const char */;"	f	typeref:typename:mqtt_message_t *
+mqtt5_msg_pubrec	lib/mqtt5_msg.c	/^mqtt_message_t *mqtt5_msg_pubrec(mqtt_connection_t *connection, uint16_t message_id)$/;"	f	typeref:typename:mqtt_message_t *
+mqtt5_msg_pubrel	lib/mqtt5_msg.c	/^mqtt_message_t *mqtt5_msg_pubrel(mqtt_connection_t *connection, uint16_t message_id)$/;"	f	typeref:typename:mqtt_message_t *
+mqtt5_msg_set_user_property	lib/mqtt5_msg.c	/^static esp_err_t mqtt5_msg_set_user_property(mqtt5_user_property_handle_t *user_property, char */;"	f	typeref:typename:esp_err_t	file:
+mqtt5_msg_subscribe	lib/mqtt5_msg.c	/^mqtt_message_t *mqtt5_msg_subscribe(mqtt_connection_t *connection, const esp_mqtt_topic_t *topic/;"	f	typeref:typename:mqtt_message_t *
+mqtt5_msg_unsubscribe	lib/mqtt5_msg.c	/^mqtt_message_t *mqtt5_msg_unsubscribe(mqtt_connection_t *connection, const char *topic, uint16_t/;"	f	typeref:typename:mqtt_message_t *
+mqtt_client_enqueue_publish	mqtt_client.c	/^static inline int mqtt_client_enqueue_publish(esp_mqtt_client_handle_t client, const char *topic/;"	f	typeref:typename:int	file:
+mqtt_delete_expired_messages	mqtt_client.c	/^static void mqtt_delete_expired_messages(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:void	file:
+mqtt_enqueue	mqtt_client.c	/^static outbox_item_handle_t mqtt_enqueue(esp_mqtt_client_handle_t client, uint8_t *remaining_dat/;"	f	typeref:typename:outbox_item_handle_t	file:
+mqtt_get_connect_return_code	lib/include/mqtt_msg.h	/^static inline int mqtt_get_connect_return_code(const uint8_t *buffer)$/;"	f	typeref:typename:int
+mqtt_get_connect_session_present	lib/include/mqtt_msg.h	/^static inline int mqtt_get_connect_session_present(const uint8_t *buffer)$/;"	f	typeref:typename:int
+mqtt_get_dup	lib/include/mqtt_msg.h	/^static inline int mqtt_get_dup(const uint8_t *buffer)$/;"	f	typeref:typename:int
+mqtt_get_id	lib/mqtt_msg.c	/^uint16_t mqtt_get_id(uint8_t *buffer, size_t length)$/;"	f	typeref:typename:uint16_t
+mqtt_get_publish_data	lib/mqtt_msg.c	/^char *mqtt_get_publish_data(uint8_t *buffer, size_t *length)$/;"	f	typeref:typename:char *
+mqtt_get_publish_topic	lib/mqtt_msg.c	/^char *mqtt_get_publish_topic(uint8_t *buffer, size_t *length)$/;"	f	typeref:typename:char *
+mqtt_get_qos	lib/include/mqtt_msg.h	/^static inline int mqtt_get_qos(const uint8_t *buffer)$/;"	f	typeref:typename:int
+mqtt_get_retain	lib/include/mqtt_msg.h	/^static inline int mqtt_get_retain(const uint8_t *buffer)$/;"	f	typeref:typename:int
+mqtt_get_suback_data	lib/mqtt_msg.c	/^char *mqtt_get_suback_data(uint8_t *buffer, size_t *length)$/;"	f	typeref:typename:char *
+mqtt_get_total_length	lib/mqtt_msg.c	/^size_t mqtt_get_total_length(const uint8_t *buffer, size_t length, int *fixed_size_len)$/;"	f	typeref:typename:size_t
+mqtt_get_type	lib/include/mqtt_msg.h	/^static inline int mqtt_get_type(const uint8_t *buffer)$/;"	f	typeref:typename:int
+mqtt_has_valid_msg_hdr	lib/mqtt_msg.c	/^int mqtt_has_valid_msg_hdr(uint8_t *buffer, size_t length)$/;"	f	typeref:typename:int
+mqtt_header_complete	lib/mqtt_msg.c	/^bool mqtt_header_complete(uint8_t *buffer, size_t buffer_length)$/;"	f	typeref:typename:bool
+mqtt_message_receive	mqtt_client.c	/^static int mqtt_message_receive(esp_mqtt_client_handle_t client, int read_poll_timeout_ms)$/;"	f	typeref:typename:int	file:
+mqtt_msg_buffer_destroy	lib/mqtt_msg.c	/^void mqtt_msg_buffer_destroy(mqtt_connection_t *connection)$/;"	f	typeref:typename:void
+mqtt_msg_buffer_init	lib/mqtt_msg.c	/^esp_err_t mqtt_msg_buffer_init(mqtt_connection_t *connection, int buffer_size)$/;"	f	typeref:typename:esp_err_t
+mqtt_msg_connect	lib/mqtt_msg.c	/^mqtt_message_t *mqtt_msg_connect(mqtt_connection_t *connection, mqtt_connect_info_t *info)$/;"	f	typeref:typename:mqtt_message_t *
+mqtt_msg_disconnect	lib/mqtt_msg.c	/^mqtt_message_t *mqtt_msg_disconnect(mqtt_connection_t *connection)$/;"	f	typeref:typename:mqtt_message_t *
+mqtt_msg_pingreq	lib/mqtt_msg.c	/^mqtt_message_t *mqtt_msg_pingreq(mqtt_connection_t *connection)$/;"	f	typeref:typename:mqtt_message_t *
+mqtt_msg_pingresp	lib/mqtt_msg.c	/^mqtt_message_t *mqtt_msg_pingresp(mqtt_connection_t *connection)$/;"	f	typeref:typename:mqtt_message_t *
+mqtt_msg_puback	lib/mqtt_msg.c	/^mqtt_message_t *mqtt_msg_puback(mqtt_connection_t *connection, uint16_t message_id)$/;"	f	typeref:typename:mqtt_message_t *
+mqtt_msg_pubcomp	lib/mqtt_msg.c	/^mqtt_message_t *mqtt_msg_pubcomp(mqtt_connection_t *connection, uint16_t message_id)$/;"	f	typeref:typename:mqtt_message_t *
+mqtt_msg_publish	lib/mqtt_msg.c	/^mqtt_message_t *mqtt_msg_publish(mqtt_connection_t *connection, const char *topic, const char *d/;"	f	typeref:typename:mqtt_message_t *
+mqtt_msg_pubrec	lib/mqtt_msg.c	/^mqtt_message_t *mqtt_msg_pubrec(mqtt_connection_t *connection, uint16_t message_id)$/;"	f	typeref:typename:mqtt_message_t *
+mqtt_msg_pubrel	lib/mqtt_msg.c	/^mqtt_message_t *mqtt_msg_pubrel(mqtt_connection_t *connection, uint16_t message_id)$/;"	f	typeref:typename:mqtt_message_t *
+mqtt_msg_subscribe	lib/mqtt_msg.c	/^mqtt_message_t *mqtt_msg_subscribe(mqtt_connection_t *connection, const esp_mqtt_topic_t topic_l/;"	f	typeref:typename:mqtt_message_t *
+mqtt_msg_unsubscribe	lib/mqtt_msg.c	/^mqtt_message_t *mqtt_msg_unsubscribe(mqtt_connection_t *connection, const char *topic, uint16_t /;"	f	typeref:typename:mqtt_message_t *
+mqtt_process_receive	mqtt_client.c	/^static esp_err_t mqtt_process_receive(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:esp_err_t	file:
+mqtt_resend_queued	mqtt_client.c	/^static esp_err_t mqtt_resend_queued(esp_mqtt_client_handle_t client, outbox_item_handle_t item)$/;"	f	typeref:typename:esp_err_t	file:
+mqtt_set_dup	lib/include/mqtt_msg.h	/^static inline void mqtt_set_dup(uint8_t *buffer)$/;"	f	typeref:typename:void
+outbox_delete	lib/mqtt_outbox.c	/^esp_err_t outbox_delete(outbox_handle_t outbox, int msg_id, int msg_type)$/;"	f	typeref:typename:esp_err_t
+outbox_delete_all_items	lib/mqtt_outbox.c	/^void outbox_delete_all_items(outbox_handle_t outbox)$/;"	f	typeref:typename:void
+outbox_delete_expired	lib/mqtt_outbox.c	/^int outbox_delete_expired(outbox_handle_t outbox, outbox_tick_t current_tick, outbox_tick_t time/;"	f	typeref:typename:int
+outbox_delete_item	lib/mqtt_outbox.c	/^esp_err_t outbox_delete_item(outbox_handle_t outbox, outbox_item_handle_t item_to_delete)$/;"	f	typeref:typename:esp_err_t
+outbox_delete_single_expired	lib/mqtt_outbox.c	/^int outbox_delete_single_expired(outbox_handle_t outbox, outbox_tick_t current_tick, outbox_tick/;"	f	typeref:typename:int
+outbox_dequeue	lib/mqtt_outbox.c	/^outbox_item_handle_t outbox_dequeue(outbox_handle_t outbox, pending_state_t pending, outbox_tick/;"	f	typeref:typename:outbox_item_handle_t
+outbox_destroy	lib/mqtt_outbox.c	/^void outbox_destroy(outbox_handle_t outbox)$/;"	f	typeref:typename:void
+outbox_enqueue	lib/mqtt_outbox.c	/^outbox_item_handle_t outbox_enqueue(outbox_handle_t outbox, outbox_message_handle_t message, out/;"	f	typeref:typename:outbox_item_handle_t
+outbox_get	lib/mqtt_outbox.c	/^outbox_item_handle_t outbox_get(outbox_handle_t outbox, int msg_id)$/;"	f	typeref:typename:outbox_item_handle_t
+outbox_get_size	lib/mqtt_outbox.c	/^uint64_t outbox_get_size(outbox_handle_t outbox)$/;"	f	typeref:typename:uint64_t
+outbox_init	lib/mqtt_outbox.c	/^outbox_handle_t outbox_init(void)$/;"	f	typeref:typename:outbox_handle_t
+outbox_item_get_data	lib/mqtt_outbox.c	/^uint8_t *outbox_item_get_data(outbox_item_handle_t item,  size_t *len, uint16_t *msg_id, int *ms/;"	f	typeref:typename:uint8_t *
+outbox_item_get_pending	lib/mqtt_outbox.c	/^pending_state_t outbox_item_get_pending(outbox_item_handle_t item)$/;"	f	typeref:typename:pending_state_t
+outbox_set_pending	lib/mqtt_outbox.c	/^esp_err_t outbox_set_pending(outbox_handle_t outbox, int msg_id, pending_state_t pending)$/;"	f	typeref:typename:esp_err_t
+outbox_set_tick	lib/mqtt_outbox.c	/^esp_err_t outbox_set_tick(outbox_handle_t outbox, int msg_id, outbox_tick_t tick)$/;"	f	typeref:typename:esp_err_t
+platform_create_id_string	lib/platform_esp32_idf.c	/^char *platform_create_id_string(void)$/;"	f	typeref:typename:char *
+platform_random	lib/platform_esp32_idf.c	/^int platform_random(int max)$/;"	f	typeref:typename:int
+platform_tick_get_ms	lib/platform_esp32_idf.c	/^uint64_t platform_tick_get_ms(void)$/;"	f	typeref:typename:uint64_t
+process_keepalive	mqtt_client.c	/^static esp_err_t process_keepalive(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:esp_err_t	file:
+random_string	host_test/main/test_mqtt_client.cpp	/^auto random_string(std::size_t n)$/;"	f	typeref:typename:auto
+remove_initiator_message	mqtt_client.c	/^static bool remove_initiator_message(esp_mqtt_client_handle_t client, int msg_type, int msg_id)$/;"	f	typeref:typename:bool	file:
+run_event_loop	mqtt_client.c	/^static inline void run_event_loop(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:void	file:
+send_disconnect_msg	mqtt_client.c	/^static esp_err_t send_disconnect_msg(esp_mqtt_client_handle_t client)$/;"	f	typeref:typename:esp_err_t	file:
+set_message_header_size	lib/mqtt_msg.c	/^static int set_message_header_size(mqtt_connection_t *connection)$/;"	f	typeref:typename:int	file:
+update_property_len_value	lib/mqtt5_msg.c	/^static int update_property_len_value(mqtt_connection_t *connection, size_t property_len, int pro/;"	f	typeref:typename:int	file:

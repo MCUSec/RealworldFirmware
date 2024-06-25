@@ -1,0 +1,49 @@
+{
+    "methods":
+    [
+      {
+        "method":"<org.jxmpp.util.XmppStringUtils: java.lang.String parseDomain(java.lang.String)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method":"<org.jxmpp.util.XmppStringUtils: java.lang.String parseResource(java.lang.String)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method":"<org.jxmpp.util.XmppStringUtils: java.lang.String completeJidFrom(java.lang.String,java.lang.String)>",
+        "parameterIndexes":[0,1]
+      },
+      {
+        "method":"<org.jxmpp.util.XmppStringUtils: boolean isFullJID(java.lang.String)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method":"<org.jxmpp.util.XmppStringUtils: java.lang.String unescapeLocalpart(java.lang.String)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method":"<org.jxmpp.util.XmppStringUtils: java.lang.String unescapeLocalpart(java.lang.String)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method":"<org.jxmpp.stringprep.XmppStringPrepUtil: java.lang.String domainprep(java.lang.String)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method":"<org.jxmpp.stringprep.XmppStringPrepUtil: java.lang.String domainprep(java.lang.String,org.jxmpp.JxmppContext)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method":"<org.jxmpp.stringprep.XmppStringPrepUtil: java.lang.String resourceprep(java.lang.String)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method":"<org.jxmpp.stringprep.XmppStringPrepUtil: java.lang.String resourceprep(java.lang.String,org.jxmpp.JxmppContext)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method":"<org.jxmpp.stringprep.XmppStringprep: java.lang.String domainprep(java.lang.String)>",
+        "parameterIndexes":[0]
+      }
+    ]
+}

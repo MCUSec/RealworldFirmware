@@ -1,0 +1,80 @@
+{
+    "methods": [
+        {
+            "method": "<org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration$Builder: org.jivesoftware.smack.ConnectionConfiguration$Builder setUsernameAndPassword(java.lang.CharSequence,java.lang.String)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration$Builder: org.jivesoftware.smack.ConnectionConfiguration$Builder setHost(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration$Builder: org.jivesoftware.smack.ConnectionConfiguration$Builder setSecurityMode(org.jivesoftware.smack.ConnectionConfiguration$SecurityMode)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration$Builder: org.jivesoftware.smack.ConnectionConfiguration$Builder setServiceName(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.jivesoftware.smack.tcp.XMPPTCPConnectionConfiguration$Builder: org.jivesoftware.smack.ConnectionConfiguration$Builder setPort(int)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.jivesoftware.smack.tcp.XMPPTCPConnection: void login(java.lang.CharSequence,java.lang.String)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.jivesoftware.smack.packet.Stanza: void setTo(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.jivesoftware.smack.packet.Stanza: void setStanzaId(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.jivesoftware.smack.XMPPConnection: void <init>(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.jivesoftware.smack.XMPPConnection: void login(java.lang.String,java.lang.String)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.jivesoftware.smack.XMPPConnection: void login(java.lang.String,java.lang.String,java.lang.String)>",
+            "parameterIndexes": [0,1,2]
+        },
+        {
+            "method": "<org.jivesoftware.smack.packet.Message: void <init>(java.lang.String,org.jivesoftware.smack.packet.Message$Type)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.jivesoftware.smack.packet.Message: void setPacketID(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.jivesoftware.smack.packet.Message: void setBody(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.jivesoftware.smack.packet.Message: org.jivesoftware.smack.packet.Message$Body addBody(java.lang.String,java.lang.String)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.jivesoftware.smack.packet.Message: void setType(org.jivesoftware.smack.packet.Message$Type)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.jivesoftware.smack.chat2.ChatManager: org.jivesoftware.smack.chat2.Chat chatWith(org.jxmpp.jid.EntityBareJid)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.jivesoftware.smack.chat2.Chat: void send(java.lang.CharSequence)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.jivesoftware.smack.packet.Stanza: void setTo(org.jxmpp.jid.Jid)>",
+            "parameterIndexes": [0]
+        }
+    ]
+}

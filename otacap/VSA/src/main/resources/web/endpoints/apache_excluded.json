@@ -1,0 +1,90 @@
+{
+  "methods":
+    [
+      {
+        "method": "<org.apache.http.client.methods.HttpGet: void <init>(java.lang.String)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpPost: void <init>(java.lang.String)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpDelete: void <init>(java.lang.String)>",
+        "parameterIndexes":[0]
+      },
+      {
+      "method": "<org.apache.http.client.methods.HttpPut: void <init>(java.lang.String)>",
+      "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpGet: void <init>(java.net.URI)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpPost: void <init>(java.net.URI)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpDelete: void <init>(java.net.URI)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpPut: void <init>(java.net.URI)>",
+        "parameterIndexes":[0]
+      },
+      {
+      "method": "<org.apache.http.client.methods.HttpGet: void setURI(java.net.URI)>",
+      "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpPost: void setURI(java.net.URI)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpDelete: void setURI(java.net.URI)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpPut: void setURI(java.net.URI)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.HttpHost: org.apache.http.HttpHost create(java.lang.String)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.HttpHost: void <init>(org.apache.http.HttpHost)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.HttpHost: void <init>(java.lang.String,int,java.lang.String)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.HttpHost: void <init>(java.net.InetAddress,java.lang.String,int,java.lang.String)>",
+        "parameterIndexes":[0,1]
+      },
+      {
+        "method": "<org.apache.http.HttpHost: void <init>(java.lang.String,int)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.HttpHost: void <init>(java.lang.String)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.HttpHost: void <init>(java.net.InetAddress,int,java.lang.String)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.HttpHost: void <init>(java.net.InetAddress,int)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.HttpHost: void <init>(java.net.InetAddress)>",
+        "parameterIndexes":[0]
+      }
+
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "methods":
+    [
+      {
+        "method": "<com.bumptech.glide.RequestManager: com.bumptech.glide.RequestBuilder load(java.lang.String)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<com.bumptech.glide.RequestManager: com.bumptech.glide.RequestBuilder load(android.net.URI)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<com.bumptech.glide.RequestManager: com.bumptech.glide.RequestBuilder load(java.net.URL)>",
+        "parameterIndexes":[0]
+      }
+    ]
+}

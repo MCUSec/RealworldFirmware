@@ -1,0 +1,32 @@
+{
+    "methods": [
+        {
+            "method": "<com.azure.core.amqp.AmqpConnection: reactor.core.publisher.Mono createSession(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.azure.core.amqp.AmqpSession: reactor.core.publisher.Mono createConsumer(java.lang.String,java.lang.String,java.time.Duration,com.azure.core.amqp.AmqpRetryPolicy)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<com.azure.core.amqp.AmqpSession: reactor.core.publisher.Mono createProducer(java.lang.String,java.lang.String,java.time.Duration,com.azure.core.amqp.AmqpRetryPolicy)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<com.azure.core.amqp.AmqpTransaction: void <init>(java.nio.ByteBuffer)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.azure.core.amqp.ClaimsBasedSecurityNode: reactor.core.publisher.Mono authorize(java.lang.String,java.lang.String)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<com.azure.core.amqp.ProxyOptions: void <init>(com.azure.core.amqp.ProxyAuthenticationType,java.net.Proxy,java.lang.String,java.lang.String)>",
+            "parameterIndexes": [2,3]
+        },
+        {
+            "method": "<com.azure.core.amqp.implementation.AmqpSendLink: reactor.core.publisher.Mono send(org.apache.qpid.proton.message.Message)>",
+            "parameterIndexes": [0]
+        }
+    ]
+}

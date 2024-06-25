@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%highlight{[%t] %-5level %logger{36} - %msg%n}"/>
+        </Console>
+        <File name="warnLog" fileName="logs/warn.log">
+            <LevelRangeFilter minLevel="WARN" maxLevel="WARN" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="[%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+        <File name="errorLog" fileName="logs/error.log">
+            <LevelRangeFilter minLevel="ERROR" maxLevel="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="[%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="soot.jimple.infoflow.android.resources" level="error"/>
+        <Logger name="soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator" level="error"/>
+        <Logger name="soot.dexpler.DexBody" level="error"/>
+
+
+
+        <!--<Logger name="soot.jimple.infoflow.android" level="off">
+        </Logger>-->
+        <Logger name="iotscope" level="off">
+        </Logger>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <!--<AppenderRef ref="warnLog"/>
+            <AppenderRef ref="errorLog"/>-->
+        </Root>
+    </Loggers>
+</Configuration>

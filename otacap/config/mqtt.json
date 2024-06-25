@@ -1,0 +1,805 @@
+{
+  "methods":
+  [
+    {
+      "method":"<com.tuya.smart.mqttclient.mqttv3.MqttClient: void <init>(java.lang.String,java.lang.String)>",
+      "parmIndexs":[0,1]
+    },
+    {
+      "method":"<com.tuya.smart.mqttclient.mqttv3.MqttClient: void subscribe(java.lang.String)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<com.tuya.smart.mqttclient.mqttv3.MqttClient: void subscribe(java.lang.String[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<com.tuya.smart.mqttclient.mqttv3.MqttClient: void subscribe(java.lang.String,int)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<com.tuya.smart.mqttclient.mqttv3.MqttClient: void subscribe(java.lang.String[],int[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<com.tuya.smart.mqttclient.mqttv3.MqttClient: void subscribe(java.lang.String,com.tuya.smart.mqttclient.mqttv3.IMqttMessageListener)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<com.tuya.smart.mqttclient.mqttv3.MqttClient: void subscribe(java.lang.String,int,com.tuya.smart.mqttclient.mqttv3.IMqttMessageListener)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<com.tuya.smart.mqttclient.mqttv3.MqttClient: void subscribe(java.lang.String[],com.tuya.smart.mqttclient.mqttv3.IMqttMessageListener[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<com.tuya.smart.mqttclient.mqttv3.MqttClient: void subscribe(java.lang.String[],int[],com.tuya.smart.mqttclient.mqttv3.IMqttMessageListener[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<com.tuya.smart.mqttclient.mqttv3.MqttClient: com.tuya.smart.mqttclient.mqttv3.MqttTopic getTopic(java.lang.String)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<com.tuya.smart.mqttclient.mqttv3.MqttMessage: void <init>(byte[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<com.tuya.smart.mqttclient.mqttv3.MqttMessage: void setPayload(byte[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<com.tuya.smart.mqttclient.mqttv3.MqttClient: void publish(java.lang.String,com.tuya.smart.mqttclient.mqttv3.MqttMessage)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<com.tuya.smart.mqttclient.mqttv3.MqttClient: void publish(java.lang.String,byte[],int,boolean)>",
+      "parmIndexs":[0,1]
+    },
+    {
+      "method":"<com.tuya.smart.mqttclient.mqttv3.MqttClient: com.tuya.smart.mqttclient.mqttv3.IMqttToken subscribeWithResponse(java.lang.String)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<com.tuya.smart.mqttclient.mqttv3.MqttClient: com.tuya.smart.mqttclient.mqttv3.IMqttToken subscribeWithResponse(java.lang.String[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<com.tuya.smart.mqttclient.mqttv3.MqttConnectOptions: void setPassword(char[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<com.tuya.smart.mqttclient.mqttv3.MqttConnectOptions: void setUserName(java.lang.String)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<com.tuya.smart.mqttclient.mqttv3.MqttConnectOptions: void setServerURIs(java.lang.String[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttService: java.lang.String getClient(java.lang.String,java.lang.String,java.lang.String,org.eclipse.paho.client.mqttv3.MqttClientPersistence)>",
+      "parmIndexs":[0,1,2]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttService: org.eclipse.paho.client.mqttv3.IMqttDeliveryToken publish(java.lang.String,java.lang.String,byte[],int,boolean,java.lang.String,java.lang.String)>",
+      "parmIndexs":[0,1,2,3,5,6]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttService: org.eclipse.paho.client.mqttv3.IMqttDeliveryToken publish(java.lang.String,java.lang.String,org.eclipse.paho.client.mqttv3.MqttMessage,java.lang.String,java.lang.String)>",
+      "parmIndexs":[0,1,2,3,4]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: void <init>(android.content.Context,java.lang.String,java.lang.String)>",
+      "parmIndexs":[1,2]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: void <init>(android.content.Context,java.lang.String,java.lang.String,org.eclipse.paho.android.service.MqttAndroidClient.Ack)>",
+      "parmIndexs":[1,2]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: void <init>(android.content.Context,java.lang.String,java.lang.String,org.eclipse.paho.client.mqttv3.MqttClientPersistence)>",
+      "parmIndexs":[1,2]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: void <init>(android.content.Context,java.lang.String,java.lang.String,org.eclipse.paho.client.mqttv3.MqttClientPersistence,org.eclipse.paho.android.service.MqttAndroidClient.Ack)>",
+      "parmIndexs":[1,2]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttDeliveryToken publish(java.lang.String,byte[],int,boolean)>",
+      "parmIndexs":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttDeliveryToken publish(java.lang.String,byte[],int,boolean,java.lang.Object,org.eclipse.paho.client.mqttv3.IMqttActionListener)>",
+      "parmIndexs":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttDeliveryToken publish(java.lang.String,org.eclipse.paho.client.mqttv3.MqttMessage)>",
+      "parmIndexs":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttDeliveryToken publish(java.lang.String,org.eclipse.paho.client.mqttv3.MqttMessage,java.lang.Object,org.eclipse.paho.client.mqttv3.IMqttActionListener)>",
+      "parmIndexs":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttService: void subscribe(java.lang.String,java.lang.String,int,java.lang.String)>",
+      "parmIndexs":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttService: void subscribe(java.lang.String,String[],int[],java.lang.String,java.lang.String)>",
+      "parmIndexs":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttService: void subscribe(java.lang.String,String[],int[],java.lang.String,java.lang.String,org.eclipse.paho.client.mqttv3.IMqttMessageListener[])>",
+      "parmIndexs":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttToken subscribe(java.lang.String,int)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttToken subscribe(String[],int[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttToken subscribe(java.lang.String,int,java.lang.Object,org.eclipse.paho.client.mqttv3.IMqttActionListener)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttToken subscribe(String[],int[],java.lang.Object,org.eclipse.paho.client.mqttv3.IMqttActionListener)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttToken subscribe(java.lang.String,int,java.lang.Object,org.eclipse.paho.client.mqttv3.IMqttActionListener,org.eclipse.paho.client.mqttv3.IMqttMessageListener)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttToken subscribe(java.lang.String,int,org.eclipse.paho.client.mqttv3.IMqttMessageListener)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttToken subscribe(String[],int[],org.eclipse.paho.client.mqttv3.IMqttMessageListener[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttToken subscribe(String[],int[],java.lang.Object,org.eclipse.paho.client.mqttv3.IMqttActionListener,org.eclipse.paho.client.mqttv3.IMqttMessageListener[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttConnectOptions: void setUserName(java.lang.String)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttConnectOptions: void setPassword(char[])>",
+      "parmIndexs":[0]
+    },
+
+
+
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void <init>(java.lang.String,java.lang.String)>",
+      "parmIndexs":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void <init>(java.lang.String,java.lang.String,org.eclipse.paho.client.mqttv3.MqttClientPersistence)>",
+      "parmIndexs":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void <init>(java.lang.String,java.lang.String)>",
+      "parmIndexs":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void <init>(java.lang.String,java.lang.String,org.eclipse.paho.mqttv5.client.MqttClientPersistence)>",
+      "parmIndexs":[0,1]
+    },
+
+
+
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void publish(java.lang.String,byte[],int,boolean)>",
+      "parmIndexs":[0,1,2]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void publish(java.lang.String,org.eclipse.paho.client.mqttv3.MqttMessage)>",
+      "parmIndexs":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void subscribe(java.lang.String)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void subscribe(java.lang.String[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void subscribe(java.lang.String[],org.eclipse.paho.client.mqttv3.IMqttMessageListener)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void subscribe(java.lang.String[],int[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void subscribe(java.lang.String[],int[],org.eclipse.paho.client.mqttv3.IMqttMessageListener)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void subscribe(java.lang.String[],int)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void subscribe(java.lang.String[],int,org.eclipse.paho.client.mqttv3.IMqttMessageListener)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void subscribe(java.lang.String[])>",
+      "parmIndexs":[0]
+    },
+
+
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void publish(java.lang.String,byte[],int,boolean)>",
+      "parmIndexs":[0,1,2]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void publish(java.lang.String,org.eclipse.paho.client.mqttv3.MqttMessage)>",
+      "parmIndexs":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void subscribe(java.lang.String)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void subscribe(java.lang.String[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void subscribe(java.lang.String[],org.eclipse.paho.client.mqttv3.IMqttMessageListener)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void subscribe(java.lang.String[],int[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void subscribe(java.lang.String[],int[],org.eclipse.paho.client.mqttv3.IMqttMessageListener)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void subscribe(java.lang.String[],int)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void subscribe(java.lang.String[],int,org.eclipse.paho.client.mqttv3.IMqttMessageListener)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void subscribe(java.lang.String[])>",
+      "parmIndexs":[0]
+    },
+
+
+
+
+
+
+
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void publish(java.lang.String,byte[],int,boolean)>",
+      "parmIndexs":[0,1,2]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void publish(java.lang.String,org.eclipse.paho.client.mqttv5.client.MqttMessage)>",
+      "parmIndexs":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void subscribe(java.lang.String)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void subscribe(java.lang.String[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void subscribe(java.lang.String[],org.eclipse.paho.client.mqttv5.client.IMqttMessageListener)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void subscribe(java.lang.String[],int[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void subscribe(java.lang.String[],int[],org.eclipse.paho.client.mqttv5.client.IMqttMessageListener)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void subscribe(java.lang.String[],int)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void subscribe(java.lang.String[],int,org.eclipse.paho.client.mqttv5.client.IMqttMessageListener)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void subscribe(java.lang.String[])>",
+      "parmIndexs":[0]
+    },
+
+
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void publish(java.lang.String,byte[],int,boolean)>",
+      "parmIndexs":[0,1,2]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void publish(java.lang.String,org.eclipse.paho.client.mqttv5.client.MqttMessage)>",
+      "parmIndexs":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void subscribe(java.lang.String)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void subscribe(java.lang.String[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void subscribe(java.lang.String[],org.eclipse.paho.client.mqttv5.client.IMqttMessageListener)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void subscribe(java.lang.String[],int[])>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void subscribe(java.lang.String[],int[],org.eclipse.paho.client.mqttv5.client.IMqttMessageListener)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void subscribe(java.lang.String[],int)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void subscribe(java.lang.String[],int,org.eclipse.paho.client.mqttv5.client.IMqttMessageListener)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void subscribe(java.lang.String[])>",
+      "parmIndexs":[0]
+    },
+
+
+
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttAsyncClient: void <init>(java.lang.String,java.lang.String)>",
+      "parmIndexs":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttAsyncClient: void <init>(java.lang.String,java.lang.String,org.eclipse.paho.client.mqttv3.MqttClientPersistence)>",
+      "parmIndexs":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttAsyncClient: void <init>(java.lang.String,java.lang.String,org.eclipse.paho.client.mqttv3.MqttClientPersistence,org.eclipse.paho.client.mqttv3.MqttPingSender)>",
+      "parmIndexs":[0,1]
+    },
+    {
+      "method": "<io.x2ge.mqtt.MqttConnectOptions: void setClientIdentifier(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<io.x2ge.mqtt.MqttConnectOptions: void setHost(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<io.x2ge.mqtt.MqttConnectOptions: void setPort(int)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<io.x2ge.mqtt.MqttConnectOptions: void setPassword(byte[])>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<io.x2ge.mqtt.MqttConnectOptions: void setUserName(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<io.x2ge.mqtt.MqttClient: void publish(java.lang.String,java.lang.String)>",
+      "parmIndexs": [0,1]
+    },
+    {
+      "method": "<io.x2ge.mqtt.MqttClient: void subscribe(java.lang.String[])>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<io.x2ge.mqtt.MqttClient: void subscribe(int,java.lang.String[])>",
+      "parmIndexs": [0,1]
+    },
+    {
+      "method": "<io.netty.channel.Channel: io.netty.channel.ChannelFuture write(java.lang.Object)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<io.netty.channel.Channel: io.netty.channel.ChannelFuture connect(java.net.SocketAddress)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<io.netty.handler.codec.mqtt.MqttPublishVariableHeader: void <init>(java.lang.String,int)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<io.netty.handler.codec.mqtt.MqttPublishMessage: void <init>(io.netty.handler.codec.mqtt.MqttFixedHeader,io.netty.handler.codec.mqtt.MqttPublishVariableHeader,io.netty.buffer.ByteBuf)>",
+      "parmIndexs": [2]
+    },
+    {
+      "method": "<io.netty.handler.codec.mqtt.MqttSubscribePayload: void <init>(java.util.List)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttConnectOptions: void setSSLProperties(java.util.Properties)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttConnectOptions: void setSocketFactory(javax.net.SocketFactory)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<com.hivemq.client.mqtt.MqttClientSslConfigBuilder$Nested: com.hivemq.client.mqtt.MqttClientSslConfigBuilderBase cipherSuites(java.util.Collection)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method":"<com.hivemq.client.mqtt.MqttClientSslConfigBuilder$Nested: com.hivemq.client.mqtt.MqttClientSslConfigBuilderBase protocols(java.util.Collection)>",
+      "parmIndexs":[0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.MqttClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase identifier(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.MqttClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase identifier(com.hivemq.client.mqtt.datatypes.MqttClientIdentifier)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.MqttClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverHost(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.MqttClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverAddress(java.net.InetSocketAddress)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.MqttClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverHost(java.net.InetSocketAddress)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.MqttClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverPort(int)>",
+      "parmIndexs": [0]
+    },
+
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.Mqtt5ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase identifier(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.Mqtt5ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase identifier(com.hivemq.client.mqtt.datatypes.MqttClientIdentifier)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.Mqtt5ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverHost(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.Mqtt5ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverAddress(java.net.InetSocketAddress)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.Mqtt5ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverHost(java.net.InetSocketAddress)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.Mqtt5ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverPort(int)>",
+      "parmIndexs": [0]
+    },
+
+
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.Mqtt3ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase identifier(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.Mqtt3ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase identifier(com.hivemq.client.mqtt.datatypes.MqttClientIdentifier)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.Mqtt3ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverHost(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.Mqtt3ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverAddress(java.net.InetSocketAddress)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.Mqtt3ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverHost(java.net.InetSocketAddress)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.Mqtt3ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverPort(int)>",
+      "parmIndexs": [0]
+    },
+
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder$Send: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete topic(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder$Send: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete topic(com.hivemq.client.mqtt.datatypes.MqttTopic)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder$Send$Complete: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete payload(byte[])>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder$Send$Complete: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete payload(java.nio.ByteBuffer)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder$Send$Complete: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete qos(com.hivemq.client.mqtt.datatypes.MqttQos)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder$Send$Complete: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete retain(boolean)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete topic(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete topic(com.hivemq.client.mqtt.datatypes.MqttTopic)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder$Complete: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete payload(byte[])>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder$Complete: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete payload(java.nio.ByteBuffer)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder$Complete: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete qos(com.hivemq.client.mqtt.datatypes.MqttQos)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete retain(boolean)>",
+      "parmIndexs": [0]
+    },
+
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscribeBuilder$Send$Start: com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscriptionBuilderBase$Complete topicFilter(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscribeBuilder$Send$Start: com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscriptionBuilderBase$Complete topicFilter(com.hivemq.client.mqtt.datatypes.MqttTopicFilter)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscribeBuilder$Send$Start$Complete: com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscriptionBuilderBase$Complete qos(com.hivemq.client.mqtt.datatypes.MqttQos)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscribeBuilder$Start: com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscriptionBuilderBase$Complete topicFilter(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscribeBuilder$Start: com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscriptionBuilderBase$Complete topicFilter(com.hivemq.client.mqtt.datatypes.MqttTopicFilter)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscribeBuilder$Start$Complete: com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscriptionBuilderBase$Complete qos(com.hivemq.client.mqtt.datatypes.MqttQos)>",
+      "parmIndexs": [0]
+    },
+
+
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$SendVoid: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete topic(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$SendVoid: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete topic(com.hivemq.client.mqtt.datatypes.MqttTopic)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$SendVoid$Complete: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete payload(byte[])>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$SendVoid$Complete: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete payload(java.nio.ByteBuffer)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$SendVoid$Complete: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete qos(com.hivemq.client.mqtt.datatypes.MqttQos)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$SendVoid$Complete: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete retain(boolean)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete topic(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete topic(com.hivemq.client.mqtt.datatypes.MqttTopic)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$Complete: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete payload(byte[])>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$Complete: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete payload(java.nio.ByteBuffer)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$Complete: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete qos(com.hivemq.client.mqtt.datatypes.MqttQos)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$Complete: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete retain(boolean)>",
+      "parmIndexs": [0]
+    },
+
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscribeBuilder$Send$Start: com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscriptionBuilderBase$Complete topicFilter(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscribeBuilder$Send$Start: com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscriptionBuilderBase$Complete topicFilter(com.hivemq.client.mqtt.datatypes.MqttTopicFilter)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscribeBuilder$Send$Start$Complete: com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscriptionBuilderBase$Complete qos(com.hivemq.client.mqtt.datatypes.MqttQos)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscribeBuilder$Start: com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscriptionBuilderBase$Complete topicFilter(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscribeBuilder$Start: com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscriptionBuilderBase$Complete topicFilter(com.hivemq.client.mqtt.datatypes.MqttTopicFilter)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscribeBuilder$Start$Complete: com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscriptionBuilderBase$Complete qos(com.hivemq.client.mqtt.datatypes.MqttQos)>",
+      "parmIndexs": [0]
+    },
+
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.auth.Mqtt3SimpleAuthBuilder$Nested: com.hivemq.client.mqtt.mqtt3.message.auth.Mqtt3SimpleAuthBuilderBase$Complete username(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.auth.Mqtt3SimpleAuthBuilder$Nested: com.hivemq.client.mqtt.mqtt3.message.auth.Mqtt3SimpleAuthBuilderBase$Complete username(com.hivemq.client.mqtt.datatypes.MqttUtf8String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.auth.Mqtt3SimpleAuthBuilder$Nested$Complete: com.hivemq.client.mqtt.mqtt3.message.auth.Mqtt3SimpleAuthBuilderBase$Complete password(byte[])>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt3.message.auth.Mqtt3SimpleAuthBuilder$Nested$Complete: com.hivemq.client.mqtt.mqtt3.message.auth.Mqtt3SimpleAuthBuilderBase$Complete password(java.nio.ByteBuffer)>",
+      "parmIndexs": [0]
+    },
+
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.auth.Mqtt5SimpleAuthBuilder$Nested: com.hivemq.client.mqtt.mqtt5.message.auth.Mqtt5SimpleAuthBuilderBase username(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.auth.Mqtt5SimpleAuthBuilder$Nested: com.hivemq.client.mqtt.mqtt5.message.auth.Mqtt5SimpleAuthBuilderBase username(com.hivemq.client.mqtt.datatypes.MqttUtf8String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.auth.Mqtt5SimpleAuthBuilder$Nested$Complete: com.hivemq.client.mqtt.mqtt5.message.auth.Mqtt5SimpleAuthBuilderBase password(byte[])>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.hivemq.client.mqtt.mqtt5.message.auth.Mqtt5SimpleAuthBuilder$Nested$Complete: com.hivemq.client.mqtt.mqtt5.message.auth.Mqtt5SimpleAuthBuilderBase password(java.nio.ByteBuffer)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<org.fusesource.mqtt.client.MQTT: void setClientId(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<org.fusesource.mqtt.client.MQTT: void setHost(java.lang.String,int)>",
+      "parmIndexs": [0,1]
+    },
+    {
+      "method": "<org.fusesource.mqtt.client.MQTT: void setHost(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<org.fusesource.mqtt.client.MQTT: void setHost(java.net.URI)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<org.fusesource.mqtt.client.MQTT: void setLocalAddress(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<org.fusesource.mqtt.client.MQTT: void setLocalAddress(java.net.URI)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<org.fusesource.mqtt.client.MQTT: void setPassword(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<org.fusesource.mqtt.client.MQTT: void setUserName(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<org.fusesource.mqtt.client.MQTT: void setWillTopic(java.lang.String)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<org.fusesource.mqtt.client.BlockingConnection: void publish(java.lang.String,byte[],org.fusesource.mqtt.client.QoS,boolean)>",
+      "parmIndexs": [0,1]
+    },
+    {
+      "method": "<org.fusesource.mqtt.client.BlockingConnection: byte[] subscribe()>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<org.fusesource.mqtt.client.BlockingConnection: void publish(org.fusesource.hawtbuf.UTF8Buffer,org.fusesource.hawtbuf.Buffer,org.fusesource.mqtt.client.QoS,boolean)>",
+      "parmIndexs": [0,1]
+    },
+    {
+      "method": "<org.fusesource.mqtt.client.FutureConnection: org.fusesource.mqtt.client.Future publish(org.fusesource.hawtbuf.UTF8Buffer,org.fusesource.hawtbuf.Buffer,org.fusesource.mqtt.client.QoS,boolean)>",
+      "parmIndexs": [0,1]
+    },
+    {
+      "method": "<org.fusesource.mqtt.client.FutureConnection: org.fusesource.mqtt.client.Future publish(java.lang.String,byte[],org.fusesource.mqtt.client.QoS,boolean)>",
+      "parmIndexs": [0,1]
+    },
+    {
+      "method": "<org.fusesource.mqtt.client.FutureConnection: org.fusesource.mqtt.client.Future subscribe(org.fusesource.mqtt.client.Topic[])>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void <init>(java.lang.String,java.lang.String)>",
+      "parmIndexs": [0,1]
+    },
+    {
+      "method": "<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void connect(com.amazonaws.auth.AWSCredentialsProvider,com.amazonaws.mobileconnectors.iot.AWSIotMqttClientStatusCallback)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void connect(java.security.KeyStore,com.amazonaws.mobileconnectors.iot.AWSIotMqttClientStatusCallback)>",
+      "parmIndexs": [0,1]
+    },
+    {
+      "method": "<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void publishData(byte[],java.lang.String,com.amazonaws.mobileconnectors.iot.AWSIotMqttQos)>",
+      "parmIndexs": [0,1]
+    },
+    {
+      "method": "<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void publishData(byte[],java.lang.String,com.amazonaws.mobileconnectors.iot.AWSIotMqttQos,com.amazonaws.mobileconnectors.iot.AWSIotMqttMessageDeliveryCallback,java.lang.Object)>",
+      "parmIndexs": [0,1,4]
+    },
+    {
+      "method": "<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void publishString(java.lang.String,java.lang.String,com.amazonaws.mobileconnectors.iot.AWSIotMqttQos)>",
+      "parmIndexs": [0]
+    },
+    {
+      "method": "<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void publishString(java.lang.String,java.lang.String,com.amazonaws.mobileconnectors.iot.AWSIotMqttQos,com.amazonaws.mobileconnectors.iot.AWSIotMqttMessageDeliveryCallback,java.lang.Object)>",
+      "parmIndexs": [0,1,4]
+    },
+    {
+      "method": "<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void subscribeToTopic(java.lang.String,com.amazonaws.mobileconnectors.iot.AWSIotMqttQos,com.amazonaws.mobileconnectors.iot.AWSIotMqttNewMessageCallback)>",
+      "parmIndexs": [0]
+    }
+  ]
+}
+
+

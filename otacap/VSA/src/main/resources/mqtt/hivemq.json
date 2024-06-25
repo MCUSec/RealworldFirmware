@@ -1,0 +1,262 @@
+{
+    "methods": [
+        {
+            "method": "<com.hivemq.client.mqtt.MqttClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase identifier(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.MqttClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase identifier(com.hivemq.client.mqtt.datatypes.MqttClientIdentifier)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.MqttClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverHost(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.MqttClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverAddress(java.net.InetSocketAddress)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.MqttClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverHost(java.net.InetSocketAddress)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.MqttClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverPort(int)>",
+            "parameterIndexes": [0]
+        },
+        
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.Mqtt5ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase identifier(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.Mqtt5ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase identifier(com.hivemq.client.mqtt.datatypes.MqttClientIdentifier)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.Mqtt5ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverHost(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.Mqtt5ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverAddress(java.net.InetSocketAddress)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.Mqtt5ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverHost(java.net.InetSocketAddress)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.Mqtt5ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverPort(int)>",
+            "parameterIndexes": [0]
+        },
+
+        
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.Mqtt3ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase identifier(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.Mqtt3ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase identifier(com.hivemq.client.mqtt.datatypes.MqttClientIdentifier)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.Mqtt3ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverHost(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.Mqtt3ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverAddress(java.net.InetSocketAddress)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.Mqtt3ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverHost(java.net.InetSocketAddress)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.Mqtt3ClientBuilder: com.hivemq.client.mqtt.MqttClientBuilderBase serverPort(int)>",
+            "parameterIndexes": [0]
+        },
+        
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder$Send: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete topic(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder$Send: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete topic(com.hivemq.client.mqtt.datatypes.MqttTopic)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder$Send$Complete: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete payload(byte[])>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder$Send$Complete: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete payload(java.nio.ByteBuffer)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder$Send$Complete: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete qos(com.hivemq.client.mqtt.datatypes.MqttQos)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder$Send$Complete: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete retain(boolean)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete topic(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete topic(com.hivemq.client.mqtt.datatypes.MqttTopic)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder$Complete: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete payload(byte[])>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder$Complete: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete payload(java.nio.ByteBuffer)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder$Complete: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete qos(com.hivemq.client.mqtt.datatypes.MqttQos)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilder: com.hivemq.client.mqtt.mqtt5.message.publish.Mqtt5PublishBuilderBase$Complete retain(boolean)>",
+            "parameterIndexes": [0]
+        },
+
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscribeBuilder$Send$Start: com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscriptionBuilderBase$Complete topicFilter(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscribeBuilder$Send$Start: com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscriptionBuilderBase$Complete topicFilter(com.hivemq.client.mqtt.datatypes.MqttTopicFilter)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscribeBuilder$Send$Start$Complete: com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscriptionBuilderBase$Complete qos(com.hivemq.client.mqtt.datatypes.MqttQos)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscribeBuilder$Start: com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscriptionBuilderBase$Complete topicFilter(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscribeBuilder$Start: com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscriptionBuilderBase$Complete topicFilter(com.hivemq.client.mqtt.datatypes.MqttTopicFilter)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscribeBuilder$Start$Complete: com.hivemq.client.mqtt.mqtt5.message.subscribe.Mqtt5SubscriptionBuilderBase$Complete qos(com.hivemq.client.mqtt.datatypes.MqttQos)>",
+            "parameterIndexes": [0]
+        },
+
+
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$SendVoid: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete topic(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$SendVoid: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete topic(com.hivemq.client.mqtt.datatypes.MqttTopic)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$SendVoid$Complete: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete payload(byte[])>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$SendVoid$Complete: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete payload(java.nio.ByteBuffer)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$SendVoid$Complete: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete qos(com.hivemq.client.mqtt.datatypes.MqttQos)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$SendVoid$Complete: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete retain(boolean)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete topic(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete topic(com.hivemq.client.mqtt.datatypes.MqttTopic)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$Complete: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete payload(byte[])>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$Complete: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete payload(java.nio.ByteBuffer)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$Complete: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete qos(com.hivemq.client.mqtt.datatypes.MqttQos)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilder$Complete: com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3PublishBuilderBase$Complete retain(boolean)>",
+            "parameterIndexes": [0]
+        },
+
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscribeBuilder$Send$Start: com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscriptionBuilderBase$Complete topicFilter(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscribeBuilder$Send$Start: com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscriptionBuilderBase$Complete topicFilter(com.hivemq.client.mqtt.datatypes.MqttTopicFilter)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscribeBuilder$Send$Start$Complete: com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscriptionBuilderBase$Complete qos(com.hivemq.client.mqtt.datatypes.MqttQos)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscribeBuilder$Start: com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscriptionBuilderBase$Complete topicFilter(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscribeBuilder$Start: com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscriptionBuilderBase$Complete topicFilter(com.hivemq.client.mqtt.datatypes.MqttTopicFilter)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscribeBuilder$Start$Complete: com.hivemq.client.mqtt.mqtt3.message.subscribe.Mqtt3SubscriptionBuilderBase$Complete qos(com.hivemq.client.mqtt.datatypes.MqttQos)>",
+            "parameterIndexes": [0]
+        },
+
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.auth.Mqtt3SimpleAuthBuilder$Nested: com.hivemq.client.mqtt.mqtt3.message.auth.Mqtt3SimpleAuthBuilderBase$Complete username(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.auth.Mqtt3SimpleAuthBuilder$Nested: com.hivemq.client.mqtt.mqtt3.message.auth.Mqtt3SimpleAuthBuilderBase$Complete username(com.hivemq.client.mqtt.datatypes.MqttUtf8String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.auth.Mqtt3SimpleAuthBuilder$Nested$Complete: com.hivemq.client.mqtt.mqtt3.message.auth.Mqtt3SimpleAuthBuilderBase$Complete password(byte[])>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt3.message.auth.Mqtt3SimpleAuthBuilder$Nested$Complete: com.hivemq.client.mqtt.mqtt3.message.auth.Mqtt3SimpleAuthBuilderBase$Complete password(java.nio.ByteBuffer)>",
+            "parameterIndexes": [0]
+        },
+
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.auth.Mqtt5SimpleAuthBuilder$Nested: com.hivemq.client.mqtt.mqtt5.message.auth.Mqtt5SimpleAuthBuilderBase username(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.auth.Mqtt5SimpleAuthBuilder$Nested: com.hivemq.client.mqtt.mqtt5.message.auth.Mqtt5SimpleAuthBuilderBase username(com.hivemq.client.mqtt.datatypes.MqttUtf8String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.auth.Mqtt5SimpleAuthBuilder$Nested$Complete: com.hivemq.client.mqtt.mqtt5.message.auth.Mqtt5SimpleAuthBuilderBase password(byte[])>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.hivemq.client.mqtt.mqtt5.message.auth.Mqtt5SimpleAuthBuilder$Nested$Complete: com.hivemq.client.mqtt.mqtt5.message.auth.Mqtt5SimpleAuthBuilderBase password(java.nio.ByteBuffer)>",
+            "parameterIndexes": [0]
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+# os, chips, time, function, other
+# Signatures summarized by MCUSec for operating systems 
+# Magic number format : _OS, Chips, Time, Function, Other {tags}
+#
+
+## FreeRTOS 
+# _xt_context_restore:
+#    l32i    a3,  sp, XT_STK_SAR
+#    l32i    a2,  sp, XT_STK_A2
+#    wsr     a3,  SAR
+#    l32i    a3,  sp, XT_STK_A3
+#    l32i    a4,  sp, XT_STK_A4
+#    l32i    a5,  sp, XT_STK_A5
+#    l32i    a6,  sp, XT_STK_A6
+#    l32i    a7,  sp, XT_STK_A7
+#    l32i    a8,  sp, XT_STK_A8
+#    l32i    a9,  sp, XT_STK_A9
+#    l32i    a10, sp, XT_STK_A10
+#    l32i    a11, sp, XT_STK_A11
+0    string \x32\x21\x13\x28\x51\x30\x03\x13\x38\x61\x48\x71\x58\x81\x68\x91\x78\xa1\x88\xb1\x98\xc1\xa8\xd1\xb8\xe1\xc8\xf1\xd2\x21\x10 _FreeRTOS,xtensa_esp32,latest,_xt_context_restore,
+# use different assembly code to judge the configuration of compiler 
+>31   uquad  =0xE22111F221120DF0  not define __XTENSA_CALL0_ABI__
+
+
+# Note: delete first two lines because of s32i and s32i.n 
+# _xt_context_save: 
+#    s32i    a5,  sp, XT_STK_A5
+#    s32i    a6,  sp, XT_STK_A6
+#    s32i    a7,  sp, XT_STK_A7
+#    s32i    a8,  sp, XT_STK_A8
+#    s32i    a9,  sp, XT_STK_A9
+#    s32i    a10, sp, XT_STK_A10
+#    s32i    a11, sp, XT_STK_A11
+0    string \x49\x71\x59\x81\x69\x91\x79\xa1\x89\xb1\x99\xc1\xa9\xd1\xb9\xe1  _FreeRTOS,xtensa_esp32,latest,_xt_context_save
+
+# Note : delete first byte to not disturbed by the relative address in ldr instruction caused by align
+#void vPortSVCHandler( void )
+#{
+#    __asm volatile (
+#        "   ldr r3, pxCurrentTCBConst2      \n" /* Restore the context. */
+#        "   ldr r1, [r3]                    \n" /* Use pxCurrentTCBConst to get the pxCurrentTCB address. */
+#        "   ldr r0, [r1]                    \n" /* The first item in pxCurrentTCB is the task top of stack. */
+#        "   ldmia r0!, {r4-r11, r14}        \n" /* Pop the registers that are not automatically saved on exception entry and the critical nesting count. */
+#        "   msr psp, r0                     \n" /* Restore the task stack pointer. */
+#        "   isb                             \n"
+#        "   mov r0, #0                      \n"
+#        "   msr basepri, r0                 \n"
+#        "   bx r14                          \n"
+#        "                                   \n"
+#        "   .align 4                        \n"
+#        "pxCurrentTCBConst2: .word pxCurrentTCB             \n"
+#        );
+#}
+# Note : This can also be used to detect the base address
+0    string \x4b\x19\x68\x08\x68\xb0\xe8\xf0\x4f\x80\xf3\x09\x88\xbf\xf3\x6f\x8f\x4f\xf0\x00\x00\x80\xf3\x11\x88\x70\x47 _FreeRTOS,ARM,Cortex-M3/4F/7,all,vPortSVCHandler
+
+
+## Arduino
+# https://github.com/stm32duino/Arduino_Core_STM32
+# Note: '-' minus symbol means before this time
+#Reset_Handler:
+#  ldr   sp, =_estack
+#  movs  r1, #0
+#  b  LoopCopyDataInit
+#CopyDataInit:
+#  ldr  r3, =_sidata
+#  ldr  r3, [r3, r1]
+#  str  r3, [r0, r1]
+#  adds  r1, r1, #4
+#LoopCopyDataInit:
+#  ldr  r0, =_sdata
+#  ldr  r3, =_edata
+#  adds  r2, r0, r1
+#  cmp  r2, r3
+#  bcc  CopyDataInit
+#  ldr  r2, =_sbss
+#  b  LoopFillZerobss
+#FillZerobss:
+#  movs  r3, #0
+#  str  r3, [r2], #4
+#LoopFillZerobss:
+#  ldr  r3, = _ebss
+#  cmp  r2, r3
+#  bcc  FillZerobss
+0    string \xdf\xf8\x34\xd0\x00\x21\x03\xe0\x0c\x4b\x5b\x58\x43\x50\x04\x31\x0b\x48\x0c\x4b\x42\x18\x9a\x42\xf6\xd3\x0b\x4a\x02\xe0\x00\x23\x42\xf8\x04\x3b\x09\x4b\x9a\x42\xf9\xd3 _Arduino,stm32f4xx,-20210529,Reset_Handler
+
+
+# stm32f1xx
+#Reset_Handler:
+#  movs r1, #0
+#  b LoopCopyDataInit
+#CopyDataInit:
+#  ldr r3, =_sidata
+#  ldr r3, [r3, r1]
+#  str r3, [r0, r1]
+#  adds r1, r1, #4
+#LoopCopyDataInit:
+#  ldr r0, =_sdata
+#  ldr r3, =_edata
+#  adds r2, r0, r1
+#  cmp r2, r3
+#  bcc CopyDataInit
+#  ldr r2, =_sbss
+#  b LoopFillZerobss
+#FillZerobss:
+#  movs r3, #0
+#  str r3, [r2], #4
+#LoopFillZerobss:
+#  ldr r3, = _ebss
+#  cmp r2, r3
+#  bcc FillZerobss
+0    string \x00\x21\x03\xe0\x0b\x4b\x5b\x58\x43\x50\x04\x31\x0a\x48\x0b\x4b\x42\x18\x9a\x42\xf6\xd3\x0a\x4a\x02\xe0\x00\x23\x42\xf8\x04\x3b\x08\x4b\x9a\x42\xf9\xd3 _Arduino,stm32f1xx,-20210621,Reset_Handler
+
+# mbedtls
+# xtensa, mpi_mul_hlp
+8    regex \x36\x41\x00\x0c\x08.{3}\xa8\x03P\x9a\x82P\xaa\xa2\x9a\x98\x0c\x1b\x879\x01\x0c\x0b\xba\xaa\xb8\x04\xba\x89\x0c\x19\xb78\x01\x0c\t\x9a\xaa\x89\x04  _mbedtls,xtensa-esp32,,mpi_mul_hlp

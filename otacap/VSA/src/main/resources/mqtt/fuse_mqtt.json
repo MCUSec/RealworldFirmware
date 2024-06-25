@@ -1,0 +1,68 @@
+{
+    "methods": [
+        {
+            "method": "<org.fusesource.mqtt.client.MQTT: void setClientId(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.fusesource.mqtt.client.MQTT: void setHost(java.lang.String,int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.fusesource.mqtt.client.MQTT: void setHost(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.fusesource.mqtt.client.MQTT: void setHost(java.net.URI)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.fusesource.mqtt.client.MQTT: void setLocalAddress(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.fusesource.mqtt.client.MQTT: void setLocalAddress(java.net.URI)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.fusesource.mqtt.client.MQTT: void setPassword(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.fusesource.mqtt.client.MQTT: void setUserName(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.fusesource.mqtt.client.MQTT: void setWillTopic(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.fusesource.mqtt.client.BlockingConnection: void publish(java.lang.String,byte[],org.fusesource.mqtt.client.QoS,boolean)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.fusesource.mqtt.client.BlockingConnection: byte[] subscribe()>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.fusesource.mqtt.client.BlockingConnection: void publish(org.fusesource.hawtbuf.UTF8Buffer,org.fusesource.hawtbuf.Buffer,org.fusesource.mqtt.client.QoS,boolean)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.fusesource.mqtt.client.FutureConnection: org.fusesource.mqtt.client.Future publish(org.fusesource.hawtbuf.UTF8Buffer,org.fusesource.hawtbuf.Buffer,org.fusesource.mqtt.client.QoS,boolean)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.fusesource.mqtt.client.FutureConnection: org.fusesource.mqtt.client.Future publish(java.lang.String,byte[],org.fusesource.mqtt.client.QoS,boolean)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.fusesource.mqtt.client.FutureConnection: org.fusesource.mqtt.client.Future subscribe(org.fusesource.mqtt.client.Topic[])>",
+            "parameterIndexes": [0]
+        }
+    ]
+}
+
+
+
+

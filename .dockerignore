@@ -1,0 +1,16 @@
+crawler/env/
+otacap/output-jsons/*
+apk-dataset/jarFiles/
+apk-dataset-extracted/*
+
+binwalk/build
+binwalk/dist
+binwalk/.coverage
+binwalk/*.extracted
+binwalk/*.pyc
+binwalk/.editorconfig
+binwalk/.gitignore
+binwalk/images
+binwalk/Dockerfile
+binwalk/.dockerignore
+binwalk/.git

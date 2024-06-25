@@ -1,0 +1,56 @@
+{
+    "methods": [
+        {
+            "method": "<io.x2ge.mqtt.MqttConnectOptions: void setClientIdentifier(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<io.x2ge.mqtt.MqttConnectOptions: void setHost(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<io.x2ge.mqtt.MqttConnectOptions: void setPort(int)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<io.x2ge.mqtt.MqttConnectOptions: void setPassword(byte[])>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<io.x2ge.mqtt.MqttConnectOptions: void setUserName(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<io.x2ge.mqtt.MqttClient: void publish(java.lang.String,java.lang.String)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<io.x2ge.mqtt.MqttClient: void subscribe(java.lang.String[])>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<io.x2ge.mqtt.MqttClient: void subscribe(int,java.lang.String[])>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<io.netty.channel.Channel: io.netty.channel.ChannelFuture write(java.lang.Object)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<io.netty.channel.Channel: io.netty.channel.ChannelFuture connect(java.net.SocketAddress)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<io.netty.handler.codec.mqtt.MqttPublishVariableHeader: void <init>(java.lang.String,int)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<io.netty.handler.codec.mqtt.MqttPublishMessage: void <init>(io.netty.handler.codec.mqtt.MqttFixedHeader,io.netty.handler.codec.mqtt.MqttPublishVariableHeader,io.netty.buffer.ByteBuf)>",
+            "parameterIndexes": [2]
+        },
+        {
+            "method": "<io.netty.handler.codec.mqtt.MqttSubscribePayload: void <init>(java.util.List)>",
+            "parameterIndexes": [0]
+        }
+    ]
+}

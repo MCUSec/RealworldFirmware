@@ -1,0 +1,38 @@
+{
+  "methods":
+    [
+      {
+        "method": "<org.apache.http.client.methods.HttpGet: void setEntity(org.apache.hc.core5.http.HttpEntity)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpPost: void setEntity(org.apache.hc.core5.http.HttpEntity)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpDelete: void setEntity(org.apache.hc.core5.http.HttpEntity)>",
+        "parameterIndexes":[0]
+      },
+      {
+      "method": "<org.apache.http.client.methods.HttpPut: void setEntity(org.apache.hc.core5.http.HttpEntity)>",
+      "parameterIndexes":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpGet: void addHeader(java.lang.String,java.lang.Object)>",
+        "parameterIndexes":[0,1]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpPost: void addHeader(java.lang.String,java.lang.Object)>",
+        "parameterIndexes":[0,1]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpDelete: void addHeader(java.lang.String,java.lang.Object)>",
+        "parameterIndexes":[0,1]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpPut: void addHeader(java.lang.String,java.lang.Object)>",
+        "parameterIndexes":[0,1]
+      }
+
+    ]
+}

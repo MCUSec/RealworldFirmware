@@ -1,0 +1,5 @@
+protobuf
+intelhex
+esptool
+yara-python
+pyelftools

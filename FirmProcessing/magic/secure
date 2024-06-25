@@ -1,0 +1,13 @@
+# Security Feature Signatures
+
+## MPU and SCB for PendSV 
+0    string  \xed\x00\xe0 _SCB&MPU,ARM
+
+## coarse mpu 
+#0    regex  [\x90-\xb8]\xed\x00\xe0 _MPU_REGION,ARM
+
+## coare smpu
+#0    string  \x2c\x05\x00\x40 _SMPU_REGION,ARM
+
+## plugin for smpu
+0    string \x05\x00\x40 _SMPU,ARM

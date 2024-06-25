@@ -1,0 +1,34 @@
+{
+  "methods":
+  [
+    {
+      "method": "<java.net.DatagramPacket: void <init>(byte[],int,java.net.InetAddress,int)>",
+      "parameterIndexes":[2]
+    },
+    {
+      "method": "<java.net.DatagramPacket: void <init>(byte[],int,int,java.net.InetAddress,int)>",
+      "parameterIndexes":[3]
+    },
+    {
+      "method": "<java.net.DatagramPacket: void <init>(byte[],int,int,java.net.SocketAddress)>",
+      "parameterIndexes":[3]
+    },
+    {
+      "method": "<java.net.DatagramPacket: void <init>(byte[],int,java.net.SocketAddress)>",
+      "parameterIndexes":[2]
+    },
+
+    {
+      "method": "<java.net.DatagramPacket: void setAddress(java.net.InetAddress)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method": "<java.net.DatagramPacket: void setPort(int)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method": "<java.net.DatagramPacket: void setSocketAddress(java.net.SocketAddress)>",
+      "parameterIndexes":[0]
+    }
+  ]
+}

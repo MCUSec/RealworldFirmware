@@ -1,0 +1,33 @@
+{
+  "methods":
+  [
+    {
+      "method": "<java.net.DatagramSocket: void <init>(int)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method": "<java.net.DatagramSocket: void <init>(int,java.net.InetAddress)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method": "<java.net.DatagramSocket: void <init>(java.net.SocketAddress)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method": "<java.net.DatagramSocket: void connect(java.net.InetAddress,int)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method": "<java.net.DatagramSocket: void connect(java.net.SocketAddress)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method": "<java.net.DatagramSocket: void bind(java.net.SocketAddress)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method": "<java.net.DatagramSocket: void send(java.net.DatagramPacket)>",
+      "parameterIndexes":[0]
+    }
+  ]
+}

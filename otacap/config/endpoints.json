@@ -1,0 +1,379 @@
+{
+  "methods":
+    [
+      {
+        "method": "<org.apache.http.client.methods.HttpGet: void <init>(java.lang.String)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpPost: void <init>(java.lang.String)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpDelete: void <init>(java.lang.String)>",
+        "parmIndexs":[0]
+      },
+      {
+      "method": "<org.apache.http.client.methods.HttpPut: void <init>(java.lang.String)>",
+      "parmIndexs":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpGet: void <init>(java.net.URI)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpPost: void <init>(java.net.URI)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpDelete: void <init>(java.net.URI)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpPut: void <init>(java.net.URI)>",
+        "parmIndexs":[0]
+      },
+      {
+      "method": "<org.apache.http.client.methods.HttpGet: void setURI(java.net.URI)>",
+      "parmIndexs":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpPost: void setURI(java.net.URI)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpDelete: void setURI(java.net.URI)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<org.apache.http.client.methods.HttpPut: void setURI(java.net.URI)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<org.apache.http.HttpHost: org.apache.http.HttpHost create(java.lang.String)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<org.apache.http.HttpHost: void <init>(org.apache.http.HttpHost)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<org.apache.http.HttpHost: void <init>(java.lang.String,int,java.lang.String)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<org.apache.http.HttpHost: void <init>(java.net.InetAddress,java.lang.String,int,java.lang.String)>",
+        "parmIndexs":[0,1]
+      },
+      {
+        "method": "<org.apache.http.HttpHost: void <init>(java.lang.String,int)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<org.apache.http.HttpHost: void <init>(java.lang.String)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<org.apache.http.HttpHost: void <init>(java.net.InetAddress,int,java.lang.String)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<org.apache.http.HttpHost: void <init>(java.net.InetAddress,int)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<org.apache.http.HttpHost: void <init>(java.net.InetAddress)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<com.bumptech.glide.RequestManager: com.bumptech.glide.RequestBuilder load(java.lang.String)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<com.bumptech.glide.RequestManager: com.bumptech.glide.RequestBuilder load(android.net.URI)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<com.bumptech.glide.RequestManager: com.bumptech.glide.RequestBuilder load(java.net.URL)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<java.net.Socket: void <init>(java.lang.String,int)>",
+        "parmIndexs":[0,1]
+      },
+      {
+        "method": "<java.net.Socket: void <init>(java.net.InetAddress,int)>",
+        "parmIndexs":[0,1]
+      },
+      {
+        "method": "<java.net.Socket: void <init>(java.lang.String,int,java.net.InetAddress,int)>",
+        "parmIndexs":[0,1]
+      },
+      {
+        "method": "<java.net.Socket: void <init>(java.net.InetAddress,int,java.net.InetAddress,int)>",
+        "parmIndexs":[0,1]
+      },
+      {
+        "method": "<java.net.Socket: void <init>(java.lang.String,int,boolean)>",
+        "parmIndexs":[0,1]
+      },
+      {
+        "method": "<java.net.Socket: void <init>(java.net.InetAddress,int,boolean)>",
+        "parmIndexs":[0,1]
+      },
+      {
+        "method": "<java.net.Socket: void connect(java.net.SocketAddress,int)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<java.net.Socket: void connect(java.net.SocketAddress)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<java.net.URL: void <init>(java.lang.String,java.lang.String,int,java.lang.String)>",
+        "parmIndexs":[0,1,2]
+      },
+      {
+        "method": "<java.net.URL: void <init>(java.lang.String,java.lang.String,java.lang.String)>",
+        "parmIndexs":[0,1]
+      },
+      {
+        "method": "<java.net.URL: void <init>(java.lang.String,java.lang.String,int,java.lang.String,java.net.URLStreamHandler)>",
+        "parmIndexs":[0,1,2]
+      },
+      {
+        "method": "<java.net.URL: void <init>(java.lang.String)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<java.net.URL: void <init>(java.net.URL,java.lang.String)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<java.net.URL: void <init>(java.net.URL,java.lang.String,java.net.URLStreamHandler)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle sendRequest(cz.msebera.android.httpclient.impl.client.DefaultHttpClient,cz.msebera.android.httpclient.protocol.HttpContext,cz.msebera.android.httpclient.client.methods.HttpUriRequest,java.lang.String,com.loopj.android.http.ResponseHandlerInterface,android.content.Context)>",
+        "parmIndexs":[2]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle delete(android.content.Context,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle delete(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle delete(java.lang.String,com.loopj.android.http.RequestParams,com.loopj.android.http.AsyncHttpResponseHandler)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle delete(java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle delete(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],com.loopj.android.http.RequestParams,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle delete(android.content.Context,java.lang.String,cz.msebera.android.httpclient.HttpEntity,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle get(android.content.Context,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle get(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle get(java.lang.String,com.loopj.android.http.RequestParams,com.loopj.android.http.AsyncHttpResponseHandler)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle get(java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle get(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],com.loopj.android.http.RequestParams,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle get(android.content.Context,java.lang.String,cz.msebera.android.httpclient.HttpEntity,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle post(android.content.Context,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle post(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle post(java.lang.String,com.loopj.android.http.RequestParams,com.loopj.android.http.AsyncHttpResponseHandler)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle post(java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle post(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],com.loopj.android.http.RequestParams,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle post(android.content.Context,java.lang.String,cz.msebera.android.httpclient.HttpEntity,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle put(android.content.Context,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle put(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle put(java.lang.String,com.loopj.android.http.RequestParams,com.loopj.android.http.AsyncHttpResponseHandler)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle put(java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle put(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],com.loopj.android.http.RequestParams,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle put(android.content.Context,java.lang.String,cz.msebera.android.httpclient.HttpEntity,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method":"<okhttp3.Request$Builder: okhttp3.Request$Builder url(java.lang.String)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method":"<okhttp3.Request$Builder: okhttp3.Request$Builder url(okhttp3.HttpUrl)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method":"<okhttp3.Request$Builder: okhttp3.Request$Builder url(java.net.URL)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method":"<retrofit2.Retrofit$Builder: retrofit2.Retrofit$Builder baseUrl(java.lang.String)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method":"<retrofit2.Retrofit$Builder: retrofit2.Retrofit$Builder baseUrl(okhttp3.HttpUrl)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method":"<retrofit2.Retrofit$Builder: retrofit2.Retrofit$Builder baseUrl(java.net.URL)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<com.android.volley.Request: void <init>(int,java.lang.String,com.android.volley.Response$ErrorListener)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.android.volley.Request: void <init>(java.lang.String,com.android.volley.Response$ErrorListener)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<com.android.volley.toolbox.StringRequest: void <init>(int,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.android.volley.toolbox.StringRequest: void <init>(java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<com.android.volley.toolbox.ImageRequest: void <init>(java.lang.String,com.android.volley.Response$Listener,int,int,android.widget.ImageView$ScaleType,android.graphics.Bitmap$Config,com.android.volley.Response$ErrorListener)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<com.android.volley.toolbox.ImageRequest: void <init>(java.lang.String,com.android.volley.Response$Listener,int,int,android.graphics.Bitmap$Config,com.android.volley.Response$ErrorListener)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<com.android.volley.toolbox.JsonObjectRequest: void <init>(int,java.lang.String,org.json.JSONObject,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.android.volley.toolbox.JsonObjectRequest: void <init>(int,java.lang.String,org.json.JSONArray,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.android.volley.toolbox.JsonObjectRequest: void <init>(java.lang.String,org.json.JSONObject,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<com.android.volley.toolbox.JsonArrayRequest: void <init>(java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<com.android.volley.toolbox.JsonArrayRequest: void <init>(int,java.lang.String,org.json.JSONArray,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parmIndexs":[1]
+      },
+      {
+        "method": "<com.android.volley.toolbox.JsonArrayRequest: void <init>(int,java.lang.String,org.json.JSONObject,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parmIndexs":[1]
+      },
+
+
+      {
+        "method": "<org.apache.commons.net.ftp.FTPClient; void connect(java.lang.String)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<org.apache.commons.net.ftp.FTPClient; void connect(java.lang.String,int)>",
+        "parmIndexs":[0,1]
+      },
+      {
+        "method": "<org.apache.commons.net.ftp.FTPClient; void connect(java.lang.String,int,java.net.InetAddress,int)>",
+        "parmIndexs":[0,1]
+      },
+      {
+        "method": "<org.apache.commons.net.ftp.FTPClient; boolean login(java.lang.String,java.lang.String)>",
+        "parmIndexs":[0,1]
+      },
+      {
+        "method": "<org.apache.commons.net.ftp.FTPClient; boolean login(java.lang.String,java.lang.String,java.lang.String)>",
+        "parmIndexs":[0,1,2]
+      },
+      {
+        "method": "<it.sauronsoftware.ftp4j.FTPClient; java.lang.String[] connect(java.lang.String)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<it.sauronsoftware.ftp4j.FTPClient; java.lang.String[] connect(java.lang.String,int)>",
+        "parmIndexs":[0,1]
+      },
+      {
+        "method": "<it.sauronsoftware.ftp4j.FTPClient; void login(java.lang.String,java.lang.String)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<it.sauronsoftware.ftp4j.FTPClient; void login(java.lang.String,java.lang.String,java.lang.String)>",
+        "parmIndexs":[0,1,2]
+      },
+      {
+        "method": "<org.jibble.simpleftp.SimpleFTP; void connect(java.lang.String)>",
+        "parmIndexs":[0]
+      },
+      {
+        "method": "<org.jibble.simpleftp.SimpleFTP; void connect(java.lang.String,int)>",
+        "parmIndexs":[0,1]
+      },
+      {
+        "method": "<org.jibble.simpleftp.SimpleFTP; void connect(java.lang.String,int,java.lang.String,java.lang.String)>",
+        "parmIndexs":[0,1,2,3]
+      }
+    ]
+}

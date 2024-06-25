@@ -1,0 +1,68 @@
+{
+    "methods": [
+        {
+            "method": "<com.azure.core.amqp.AmqpConnection: reactor.core.publisher.Mono createSession(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.azure.core.amqp.AmqpSession: reactor.core.publisher.Mono createConsumer(java.lang.String,java.lang.String,java.time.Duration,com.azure.core.amqp.AmqpRetryPolicy)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<com.azure.core.amqp.AmqpSession: reactor.core.publisher.Mono createProducer(java.lang.String,java.lang.String,java.time.Duration,com.azure.core.amqp.AmqpRetryPolicy)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<com.azure.core.amqp.AmqpTransaction: void <init>(java.nio.ByteBuffer)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.azure.core.amqp.ClaimsBasedSecurityNode: reactor.core.publisher.Mono authorize(java.lang.String,java.lang.String)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<com.azure.core.amqp.ProxyOptions: void <init>(com.azure.core.amqp.ProxyAuthenticationType,java.net.Proxy,java.lang.String,java.lang.String)>",
+            "parameterIndexes": [2,3]
+        },
+        {
+            "method": "<com.azure.core.amqp.implementation.AmqpSendLink: reactor.core.publisher.Mono send(org.apache.qpid.proton.message.Message)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method":"<com.rabbitmq.client.ConnectionFactory: void setPassword(java.lang.String)>",
+            "parameterIndexes":[0]
+        },
+        {
+            "method":"<com.rabbitmq.client.ConnectionFactory: void setHost(java.lang.String)>",
+            "parameterIndexes":[0]
+        },
+        {
+            "method":"<com.rabbitmq.client.ConnectionFactory: void setPort(int)>",
+            "parameterIndexes":[0]
+        },
+        {
+            "method":"<com.rabbitmq.client.ConnectionFactory: void setUsername(java.lang.String)>",
+            "parameterIndexes":[0]
+        },
+        {
+            "method":"<com.rabbitmq.client.ConnectionFactory: void setVirtualHost(java.lang.String)>",
+            "parameterIndexes":[0]
+        },
+        {
+            "method":"<com.rabbitmq.client.ConnectionFactory: void setUri(java.lang.String)>",
+            "parameterIndexes":[0]
+        },
+        {
+            "method":"<com.rabbitmq.client.Channel: com.rabbitmq.client.AMQP$Queue$DeclareOk queueDeclare(java.lang.String,boolean,boolean,boolean,java.util.Map)>",
+            "parameterIndexes":[0]
+        },
+        {
+            "method":"<com.rabbitmq.client.Channel: void basicPublish(java.lang.String,java.lang.String,com.rabbitmq.client.AMQP$BasicProperties,byte[])>",
+            "parameterIndexes":[0,1,3]
+        },
+        {
+            "method":"<com.rabbitmq.client.Channel: com.rabbitmq.client.AMQP$Exchange$DeclareOk exchangeDeclare(java.lang.String,java.lang.String)>",
+            "parameterIndexes":[0,1]
+        }
+    ]
+}

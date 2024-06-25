@@ -1,0 +1,19 @@
+% Shared Preferences _SOURCE_
+<android.content.SharedPreferences: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)> -> _SOURCE_
+
+<android.content.SharedPreferences: java.util.Map getAll()> -> _SOURCE_
+<android.content.SharedPreferences: boolean getBoolean(java.lang.String,boolean)> -> _SOURCE_
+<android.content.SharedPreferences: float getFloat(java.lang.String,float)> -> _SOURCE_
+<android.content.SharedPreferences: int getInt(java.lang.String,int)> -> _SOURCE_
+<android.content.SharedPreferences: long getLong(java.lang.String,long)> -> _SOURCE_
+<android.content.SharedPreferences: jav.lang.String getString(java.lang.String,java.lang.String)> -> _SOURCE_
+<android.content.SharedPreferences: java.util.Set getStringSet(java.lang.String,java.util.Set)> -> _SOURCE_
+
+
+
+
+% Content resolver
+<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)> -> _SOURCE_
+<android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,android.os.CancellationSignal)> -> _SOURCE_
+
+

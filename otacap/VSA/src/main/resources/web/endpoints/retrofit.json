@@ -1,0 +1,17 @@
+{
+  "methods":
+  [
+    {
+      "method":"<retrofit2.Retrofit$Builder: retrofit2.Retrofit$Builder baseUrl(java.lang.String)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<retrofit2.Retrofit$Builder: retrofit2.Retrofit$Builder baseUrl(okhttp3.HttpUrl)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<retrofit2.Retrofit$Builder: retrofit2.Retrofit$Builder baseUrl(java.net.URL)>",
+      "parameterIndexes":[0]
+    }
+  ]
+}

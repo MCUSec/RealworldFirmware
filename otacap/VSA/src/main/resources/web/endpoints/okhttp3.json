@@ -1,0 +1,17 @@
+{
+  "methods":
+  [
+    {
+      "method":"<okhttp3.Request$Builder: okhttp3.Request$Builder url(java.lang.String)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<okhttp3.Request$Builder: okhttp3.Request$Builder url(okhttp3.HttpUrl)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<okhttp3.Request$Builder: okhttp3.Request$Builder url(java.net.URL)>",
+      "parameterIndexes":[0]
+    }
+  ]
+}

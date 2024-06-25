@@ -1,0 +1,1032 @@
+{
+  "<java.lang.StringBuilder: java.lang.String toString()>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.lang.String: java.lang.String trim()>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.lang.String: java.lang.String toLowerCase(*)>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.lang.String: java.lang.String toUpperCase(*)>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.lang.StringBuilder: java.lang.StringBuilder append(*)>":
+  {
+    "taint":["base","args"]
+  },
+
+  "<java.lang.StringBuffer: java.lang.StringBuffer append(*)>":
+  {
+    "taint":["base","args"]
+  },
+
+  "<java.lang.String: java.lang.String substring(*)>":
+  {
+    "taint":["base","args"]
+  },
+
+  "<android.content.Context: java.lang.String getString(int)>":
+  {
+    "taint":["arg0"]
+  },
+
+  "<android.content.res.Resources: java.lang.String getString(int)>":
+  {
+    "taint":["arg0"]
+  },
+
+  "<java.lang.String: java.lang.String format(java.lang.String,java.lang.Object[])>":
+  {
+    "taint":["args"]
+  },
+
+  "<android.content.res.Resources: int getIdentifier(java.lang.String,java.lang.String,java.lang.String)>":
+  {
+    "taint":["args"]
+  },
+
+
+  "<java.net.URL: void <init>(*)>":
+  {
+    "taint":["args"], "except":["java.net.URLStreamHandler"]
+  },
+
+  "<java.net.URI: void <init>(*)>":
+  {
+    "taint":["args"], "except":["java.net.URLStreamHandler"]
+  },
+
+  "<okhttp3.HttpUrl: okhttp3.HttpUrl parse(java.lang.String)>":
+  {
+    "taint":["arg0"]
+  },
+
+
+  "<okhttp3.HttpUrl$Builder: okhttp3.HttpUrl build()>":
+  {
+    "taint":["base"]
+  },
+
+  "<okhttp3.HttpUrl$Builder: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+
+
+  "<java.net.URL: java.net.URI toURI()>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.net.URL: java.lang.String *(*)>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.net.URI: java.net.URL toURL()>":
+  {
+    "taint":["base"]
+  },
+
+  "<okhttp3.HttpUrl: java.net.URL url()>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.net.URL: int getPort()>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.net.URI: java.lang.String *(*)>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.net.InetSocketAddress: void <init>(*)>":
+  {
+    "taint":["base", "args"]
+  },
+
+  "<java.net.InetSocketAddress: java.net.InetSocketAddress createUnresolved(java.lang.String,int)>":
+  {
+    "taint":["base", "args"]
+  },
+
+  "<java.net.InetSocketAddress: java.net.InetAddress getAddress()>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.net.InetSocketAddress: java.lang.String toString(*)>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.lang.StringBuilder: void <init>(java.lang.String)>":
+  {
+    "taint":["arg0"]
+  },
+
+  "<java.net.InetAddress: java.net.InetAddress getByAddress(byte[])>":
+  {
+    "taint":["arg0"]
+  },
+
+
+  "<java.net.InetAddress: java.net.InetAddress getByAddress(java.lang.String,byte[])>":
+  {
+    "taint":["args"]
+  },
+
+  "<java.net.InetAddress[]: java.net.InetAddress getAllByName(java.lang.String)>":
+  {
+    "taint":["args"]
+  },
+
+  "<java.net.InetAddress: java.net.InetAddress getByName(java.lang.String)>":
+  {
+    "taint":["args"]
+  },
+
+  "<okhttp3.Request: okhttp3.HttpUrl url()>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.lang.String: java.lang.String replace(*)":
+  {
+    "taint":["base", "args"]
+  },
+
+
+  "<java.lang.String: java.lang.String format(java.util.Locale,java.lang.String,java.lang.Object[])>":
+  {
+    "taint":["arg1", "arg2"]
+  },
+
+
+  "<java.lang.String: java.lang.String concat(java.lang.String)>":
+  {
+    "taint":["base", "arg0"]
+  },
+
+
+  "<java.lang.String: java.lang.String[] split(*)>":
+  {
+    "taint":[ "args"]
+  },
+
+  "<java.net.URLEncoder: java.lang.String encode(*)>":
+  {
+    "taint":["arg0"]
+  },
+
+  "<java.net.InetAddress: java.net.InetAddress *(*)>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.net.InetAddress: java.lang.String *(*)>":
+  {
+    "taint":["base"]
+  },
+
+  "<android.net.Uri: java.lang.String encode(*)>":
+  {
+    "taint":["args"]
+  },
+  "<java.lang.Integer: java.lang.Integer valueOf(int)>":
+  {
+    "taint":["arg0"]
+  },
+
+  "<java.lang.String: java.lang.String replaceFirst(java.lang.String,java.lang.String)>":
+  {
+    "taint":["base","args"]
+  },
+
+  "<java.lang.Integer: int intValue()>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.lang.String: java.lang.String substring(int)>":
+  {
+    "taint":["base", "args"]
+  },
+
+  "<java.lang.String: java.lang.String replace(java.lang.CharSequence,java.lang.CharSequence)>":
+  {
+    "taint":["base", "arg1"]
+  },
+
+  "<java.io.StringWriter: java.lang.String toString()":
+  {
+    "taint":["base"]
+  },
+
+  "<java.lang.String: char charAt(int)>":
+  {
+    "taint":["base"]
+  },
+
+   "<java.lang.Integer: byte byteValue()>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.lang.Object: java.lang.Object clone()>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>":
+  {
+    "taint":["base", "args"]
+  },
+
+
+  "<java.lang.String: java.lang.String substring(int,int)>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.lang.Number: int intValue()>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.lang.Object: java.lang.String toString()>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.lang.StringBuilder: java.lang.StringBuilder append(char)>":
+  {
+    "taint":["base", "args"]
+  },
+
+  "<java.lang.Integer: java.lang.String toString(int)>":
+  {
+    "taint":["args"]
+  },
+
+  "<java.lang.StringBuilder: java.lang.StringBuilder append(long)>":
+  {
+    "taint":["base", "args"]
+  },
+
+  "<java.lang.String: java.lang.String valueOf(int)>":
+  {
+    "taint":["args"]
+  },
+
+  "<java.lang.String: java.lang.String toUpperCase()>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.lang.StringBuffer: java.lang.String toString()>":
+  {
+    "taint":["base"]
+  },
+  "<android.net.Uri: java.lang.String toString()>":
+  {
+    "taint":["base"]
+  },
+
+  "<android.net.Uri: java.lang.String getPath()>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.lang.String: java.lang.String toUpperCase(java.util.Locale)>":
+  {
+    "taint":["base"]
+  },
+
+  "<android.net.Uri: android.net.Uri getUri()>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.util.UUID: java.util.UUID fromString(java.lang.String)>":
+  {
+    "taint":["arg0"]
+  },
+  "<org.eclipse.paho.client.mqttv3.MqttMessage: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+  "<android.net.Uri: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+  "<java.lang.String: char[] toCharArray()>":
+  {
+    "taint":["base"]
+  },
+  "<com.hivemq.client.mqtt.MqttClientBuilder: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+  "<com.hivemq.client.mqtt.mqtt5.Mqtt5ClientBuilder: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+  "<com.hivemq.client.mqtt.mqtt3.MqttClientBuilder: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+  "<com.hivemq.client.mqtt.datatypes.MqttUtf8String: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+  "<com.hivemq.client.mqtt.datatypes.MqttClientIdentifier: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+  "<com.hivemq.client.mqtt.datatypes.MqttTopicFilter: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+  "<com.hivemq.client.mqtt.datatypes.MqttTopicFilterBuilder: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+  "<org.eclipse.californium.core.CoapClient$Builder: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+  "<org.ws4d.coap.core.enumerations.CoapMediaType: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+  "<org.ws4d.coap.core.enumerations.CoapRequestCode: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+  "<org.jxmpp.jid.impl.JidCreate: * *(*)>":
+  {
+    "taint":["args"]
+  },
+  "<org.jxmpp.jid.impl.BareJid: * *(*)>":
+  {
+    "taint":["base"]
+  },
+  "<org.jxmpp.jid.impl.DomainBareJid: * *(*)>":
+  {
+    "taint":["base"]
+  },
+  "<org.jxmpp.jid.impl.DomainFullJid: * *(*)>":
+  {
+    "taint":["base"]
+  },
+  "<org.jxmpp.jid.impl.DomainJid: * *(*)>":
+  {
+    "taint":["base"]
+  },
+  "<org.jxmpp.jid.impl.EntityBareJid: * *(*)>":
+  {
+    "taint":["base"]
+  },
+  "<org.jxmpp.jid.impl.EntityFullJid: * *(*)>":
+  {
+    "taint":["base"]
+  },
+  "<org.jxmpp.jid.impl.EntityJid: * *(*)>":
+  {
+    "taint":["base"]
+  },
+  "<org.jxmpp.jid.impl.FullJid: * *(*)>":
+  {
+    "taint":["base"]
+  },
+  "<org.jxmpp.jid.impl.Jid: * *(*)>":
+  {
+    "taint":["base"]
+  },
+  "<org.jxmpp.jid.parts.Localpart: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+  "<org.jxmpp.jid.parts.Domainpart: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+  "<org.jxmpp.jid.parts.Resourcepart: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+  "<org.fusesource.mqtt.client.Topic: void <init>(*)>":
+  {
+    "taint":["arg0"]
+  },
+  "<org.fusesource.mqtt.client.Topic: * *(*)>":
+  {
+    "taint":["base"]
+  },
+  "<org.fusesource.hawtbuf.UTF8Buffer: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+  "<org.fusesource.hawtbuf.Buffer: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+  "<javax.net.SocketFactory: * *(*)>":
+  {
+    "taint":["args"]
+  },
+  "<com.amazonaws.auth.BasicAWSCredentials: * *(*)>":
+  {
+    "taint":["args"]
+  },
+
+  "<java.util.ArrayList: void get(java.lang.Object)>":
+  {
+    "taint":["arg0"]
+  },
+  "<java.util.List: int size()>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.util.HashMap: java.lang.Object get(java.lang.Object)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.HashMap: java.lang.Object getOrDefault(java.lang.Object,java.lang.Object)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>":
+  {
+    "taint": ["base", "args"]
+  },
+  "<java.util.HashMap: void putAll(java.lang.Map)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.HashMap: java.lang.Object replace(java.lang.Object,java.lang.Object)>":
+  {
+    "taint": ["base", "arg0","arg1"]
+  },
+  "<java.util.HashMap: boolean replace(lava.lang.Object,lava.lang.Object,java.lang.Object)>":
+  {
+    "taint": ["base", "args"]
+  },
+  "<java.util.HashMap: void <init>(java.util.Map)>":
+  {
+    "taint": ["base","arg0"]
+  },
+  "<java.util.HashMap: * (*)>":
+  {
+    "taint": ["base"]
+  },
+
+
+  "<java.util.Map: java.lang.Object get(java.lang.Object)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.Map: java.lang.Object getOrDefault(java.lang.Object,java.lang.Object)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>":
+  {
+    "taint": ["base", "args"]
+  },
+  "<java.util.Map: void putAll(java.lang.Map)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.Map: java.lang.Object replace(java.lang.Object,java.lang.Object)>":
+  {
+    "taint": ["base", "arg0","arg1"]
+  },
+  "<java.util.Map: boolean replace(lava.lang.Object,lava.lang.Object,java.lang.Object)>":
+  {
+    "taint": ["base", "args"]
+  },
+  "<java.util.Map: void <init>(java.util.Map)>":
+  {
+    "taint": ["base","arg0"]
+  },
+  "<java.util.Map: * (*)>":
+  {
+    "taint": ["base"]
+  },
+
+
+
+  "<java.util.TreeMap: java.lang.Object get(java.lang.Object)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.TreeMap: java.lang.Object getOrDefault(java.lang.Object,java.lang.Object)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.TreeMap: java.lang.Object put(java.lang.Object,java.lang.Object)>":
+  {
+    "taint": ["base", "args"]
+  },
+  "<java.util.TreeMap: void putAll(java.lang.Map)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.TreeMap: java.lang.Object replace(java.lang.Object,java.lang.Object)>":
+  {
+    "taint": ["base", "arg0","arg1"]
+  },
+  "<java.util.TreeMap: boolean replace(lava.lang.Object,lava.lang.Object,java.lang.Object)>":
+  {
+    "taint": ["base", "args"]
+  },
+  "<java.util.TreeMap: void <init>(java.util.Map)>":
+  {
+    "taint": ["base","arg0"]
+  },
+  "<java.util.TreeMap: * *(*)>":
+  {
+    "taint": ["base"]
+  },
+
+
+  "<java.util.List: boolean add(java.lang.Object)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.List: void add(int,java.lang.Object)>":
+  {
+    "taint": ["base", "arg0", "arg1"]
+  },
+  "<java.util.List: boolean addAll(java.util.Collection)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.List: boolean addAll(int,java.util.Collection)>":
+  {
+    "taint": ["base", "arg0", "arg1"]
+  },
+  "<java.util.List: java.lang.Object get(int)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.List: java.lang.Object remove(int)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.List: boolean remove(java.lang.Object)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.List: boolean remove(java.util.Collection)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.List: java.lang.Object set(int,java.lang.Object)>":
+  {
+    "taint": ["base", "arg0","arg1"]
+  },
+  "<java.util.List: void <init>(java.util.Collection)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.List: * *(*)>":
+  {
+    "taint": ["base"]
+  },
+
+
+  "<java.util.ArrayList: boolean add(java.lang.Object)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.ArrayList: void add(int,java.lang.Object)>":
+  {
+    "taint": ["base", "arg0", "arg1"]
+  },
+  "<java.util.ArrayList: boolean addAll(java.util.Collection)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.ArrayList: boolean addAll(int,java.util.Collection)>":
+  {
+    "taint": ["base", "arg0", "arg1"]
+  },
+  "<java.util.ArrayList: java.lang.Object get(int)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.ArrayList: java.lang.Object remove(int)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.ArrayList: boolean remove(java.lang.Object)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.ArrayList: boolean remove(java.util.Collection)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.ArrayList: java.lang.Object set(int,java.lang.Object)>":
+  {
+    "taint": ["base", "arg0","arg1"]
+  },
+  "<java.util.ArrayList: void <init>(java.util.Collection)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.ArrayList: * *(*)>":
+  {
+    "taint": ["base"]
+  },
+
+
+  "<java.util.LinkedList: boolean add(java.lang.Object)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.LinkedList: void add(int,java.lang.Object)>":
+  {
+    "taint": ["base", "arg0", "arg1"]
+  },
+  "<java.util.LinkedList: boolean addAll(java.util.Collection)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.LinkedList: boolean addAll(int,java.util.Collection)>":
+  {
+    "taint": ["base", "arg0", "arg1"]
+  },
+  "<java.util.LinkedList: java.lang.Object get(int)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.LinkedList: java.lang.Object remove(int)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.LinkedList: boolean remove(java.lang.Object)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.LinkedList: boolean remove(java.util.Collection)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.LinkedList: java.lang.Object set(int,java.lang.Object)>":
+  {
+    "taint": ["base", "arg0","arg1"]
+  },
+  "<java.util.LinkedList: void <init>(java.util.Collection)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.LinkedList: * *(*)>":
+  {
+    "taint": ["base"]
+  },
+
+
+
+  "<java.util.Set: boolean add(java.lang.Object)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.Set: boolean addAll(java.util.Collection)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.Set: boolean remove(java.lang.Object)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.Set: boolean removeAll(java.util.Collection)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.Set: void <init>(java.util.Collection)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.Set: * *(*)>":
+  {
+    "taint": ["base"]
+  },
+
+
+  "<java.util.HashSet: boolean add(java.lang.Object)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.HashSet: boolean addAll(java.util.Collection)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.HashSet: boolean remove(java.lang.Object)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.HashSet: boolean removeAll(java.util.Collection)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.HashSet: void <init>(java.util.Collection)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.HashSet: * *(*)>":
+  {
+    "taint": ["base"]
+  },
+
+
+  "<java.util.TreeSet: boolean add(java.lang.Object)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.TreeSet: boolean addAll(java.util.Collection)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.TreeSet: boolean remove(java.lang.Object)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.TreeSet: boolean removeAll(java.util.Collection)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.TreeSet: void <init>(java.util.Collection)>":
+  {
+    "taint": ["base", "arg0"]
+  },
+  "<java.util.TreeSet: * *(*)>":
+  {
+    "taint": ["base"]
+  },
+  "<org.json.XML: org.json.JSONObject toJSONObject(*)>":
+  {
+    "taint": ["arg0"]
+  },
+  "<org.json.Property: * *(*)>":
+  {
+    "taint": ["arg0"]
+  },
+  "<org.json.JSONML: org.json.JSONArray toJSONArray(java.lang.String)>":
+  {
+    "taint": ["arg0"]
+  },
+  "<org.json.JSONML: org.json.JSONArray toJSONArray(java.lang.String,boolean)>":
+  {
+    "taint": ["arg0"]
+  },
+  "<org.json.JSONML: org.json.JSONObject toJSONObject(java.lang.String)>":
+  {
+    "taint": ["arg0"]
+  },
+  "<org.json.JSONML: org.json.JSONObject toJSONObject(java.lang.String,boolean)>":
+  {
+    "taint": ["arg0"]
+  },
+  "<org.json.JSONML: java.lang.String toString(*)>":
+  {
+    "taint": ["arg0"]
+  },
+  "<org.json.JSONArray: void <init>(*)>":
+  {
+    "taint": ["arg0"]
+  },
+  "<org.json.JSONArray: org.json.JSONArray put(*)>":
+  {
+    "taint": ["args", "base"]
+  },
+  "<org.json.JSONArray: org.json.JSONArray putAll(*)>":
+  {
+    "taint": ["args", "base"]
+  },
+  "<org.json.JSONArray: * *(*)>":
+  {
+    "taint": ["base"]
+  },
+  "<org.json.JSONObject: org.json.JSONObject accumulate(*)>":
+  {
+    "taint": ["args", "base"]
+  },
+  "<org.json.JSONObject: org.json.JSONObject append(*)>":
+  {
+    "taint": ["args", "base"]
+  },
+  "<org.json.JSONObject: * *(*)>":
+  {
+    "taint": ["base"]
+  },
+  "<com.google.gson.Gson: java.lang.String toJson(*)>":
+  {
+    "taint": ["args"]
+  },
+  "<com.google.gson.Gson: void toJson(*)>":
+  {
+    "taint": ["args"]
+  },
+  "<com.google.gson.Gson: java.lang.String toString()>":
+  {
+    "taint": ["base"]
+  },
+  "<com.google.gson.Gson: * *(*)>":
+  {
+    "taint": ["base", "args"]
+  },
+  "<com.google.gson.JsonArray: void add(*)>":
+  {
+    "taint": ["args"]
+  },
+  "<com.google.gson.JsonArray: void addAll(*)>":
+  {
+    "taint": ["args"]
+  },
+  "<com.google.gson.JsonArray: * *(*)>":
+  {
+    "taint": ["args"]
+  },
+  "<com.google.gson.JsonObject: void add(*)>":
+  {
+    "taint": ["args"]
+  },
+  "<com.google.gson.JsonObject: void addProperty(*)>":
+  {
+    "taint": ["args"]
+  },
+  "<com.google.gson.JsonObject: * *(*)>":
+  {
+    "taint": ["args"]
+  },
+  "<com.google.gson.JsonParser: com.google.gson.JsonElement parse(*)>":
+  {
+    "taint": ["base","args"]
+  },
+  "<com.google.gson.JsonParser: com.google.gson.JsonElement parseReader(*)>":
+  {
+    "taint": ["arg0"]
+  },
+  "<com.google.gson.JsonParser: com.google.gson.JsonElement parseString(*)>":
+  {
+    "taint": ["arg0"]
+  },
+  "<com.fasterxml.jackson.databind.ObjectMapper: * *(*)>":
+  {
+    "taint": ["args"]
+  },
+  "<com.fasterxml.jackson.core.JsonGenerator: * *(*)>":
+  {
+    "taint": ["args", "base"]
+  },
+  "<org.apache.hc.core5.http.io.entity.StringEntity: void <init>(*)>":
+  {
+    "taint": ["args", "base"]
+  },
+
+  "<okhttp3.FormBody$Builder: okhttp3.HttpUrl build()>":
+  {
+    "taint":["base"]
+  },
+  "<okhttp3.FormBody$Builder: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+  "<okhttp3.RequestBody: okhttp3.RequestBody create(*)>":
+  {
+    "taint":["args"]
+  },
+  "<okhttp3.MediaType: okhttp3.MediaType get(java.lang.String)>":
+  {
+    "taint":["arg0"]
+  },
+  "<okhttp3.MediaType: okhttp3.MediaType parse(java.lang.String)>":
+  {
+    "taint":["arg0"]
+  },
+  "<okhttp3.Headers$Builder: okhttp3.Headers build()>":
+  {
+    "taint":["base"]
+  },
+  "<okhttp3.Headers$Builder: * *(*)>":
+  {
+    "taint":["base", "args"]
+  },
+  "<okhttp3.Headers: okhttp3.Headers of(*)>":
+  {
+    "taint":["args"]
+  },
+  "<java.io.File: void <init>(*)>":
+  {
+    "taint":["args"]
+  },
+
+  "<com.squareup.moshi: void toJson(okio.BufferedSink,java.lang.Object)>":
+  {
+    "taint":["arg1"]
+  },
+  "<com.squareup.moshi: void toJson(com.squareup.moshi.JsonWriter,java.lang.Object)>":
+  {
+    "taint":["arg1"]
+  },
+  "<com.squareup.moshi: java.lang.Object toJson(java.lang.Object)>":
+  {
+    "taint":["arg0"]
+  },
+  "<com.squareup.moshi: java.lang.String toJson(java.lang.Object)>":
+  {
+    "taint":["arg0"]
+  },
+
+
+  "<com.fasterxml.jackson.databind.ObjectMapper: void writeValue(*)>":
+  {
+    "taint":["arg1"]
+  },
+  "<com.fasterxml.jackson.databind.ObjectMapper: byte[] writeValueAsBytes(java.lang.Object)>":
+  {
+    "taint":["arg0"]
+  },
+  "<com.fasterxml.jackson.databind.ObjectMapper: java.lang.String writeValueAsString(java.lang.Object)>":
+  {
+    "taint":["arg0"]
+  },
+
+  "<cz.msebera.android.httpclient.entity.FileEntity: void <init>(*)>":
+  {
+    "taint":["args"]
+  },
+  "<cz.msebera.android.httpclient.entity.StringEntity: void <init>(*)>":
+  {
+    "taint":["args"]
+  },
+  "<cz.msebera.android.httpclient.entity.ByteArrayEntity: void <init>(*)>":
+  {
+    "taint":["args"]
+  },
+  "<cz.msebera.android.httpclient.message.BasicHeader: void <init>(java.lang.String,java.lang.String)>":
+  {
+    "taint":["arg0", "arg1"]
+  },
+
+
+  "<com.loopj.android.http.RequestParams: void <init>(java.util.Map)>":
+  {
+    "taint":["arg0"]
+  },
+  "<com.loopj.android.http.RequestParams: void <init>(java.lang.Object[])>":
+  {
+    "taint":["arg0"]
+  },
+  "<com.loopj.android.http.RequestParams: void <init>(java.lang.String,java.lang.String)>":
+  {
+    "taint":["arg0","arg1"]
+  },
+  "<com.loopj.android.http.RequestParams: void add(java.lang.String,java.lang.String)>":
+  {
+    "taint":["arg0","arg1"]
+  },
+  "<com.loopj.android.http.RequestParams: void put(*)>":
+  {
+    "taint":["args"]
+  },
+  "<java.lang.String: byte[] getBytes(*)>":
+  {
+    "taint":["base"]
+  },
+  "<*: byte[] toByteArray()>":
+  {
+    "taint":["base"]
+  },
+  "<*: byte[] toByteString()>":
+  {
+    "taint":["base"]
+  },
+
+  "<java.net.DatagramPacket: * *(*)>":
+  {
+    "taint":["base","args"]
+  },
+  "<java.net.SocketAddress: * *(*)>":
+  {
+    "taint":["base","args"]
+  }
+}
+

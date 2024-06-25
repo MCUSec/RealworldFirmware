@@ -1,0 +1,21 @@
+{
+  "methods":
+    [
+      {
+        "method": "<android.webkit.WebView: void loadUrl(java.lang.String)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<android.webkit.WebView: void loadUrl(java.lang.String,java.util.Map)>",
+        "parameterIndexes":[0,1]
+      },
+      {
+        "method": "<android.webkit.WebView: void postUrl(java.lang.String,byte[])>",
+        "parameterIndexes":[0,1]
+      },
+      {
+        "method": "<android.webkit.WebView: void loadDataWithBaseURL(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>",
+        "parameterIndexes":[0,1,2,3,4]
+      }
+    ]
+}

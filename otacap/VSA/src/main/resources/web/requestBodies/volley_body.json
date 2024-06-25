@@ -1,0 +1,29 @@
+{
+  "methods":
+    [
+      {
+        "method": "<com.android.volley.Request: byte[] getBody()>",
+        "parameterIndexes":[-2]
+      },
+      {
+        "method": "<com.android.volley.Request: java.util.Map getParams()>",
+        "parameterIndexes":[-2]
+      },
+      {
+        "method": "<com.android.volley.toolbox.JsonObjectRequest: void <init>(int,java.lang.String,org.json.JSONObject,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parameterIndexes":[2]
+      },
+      {
+        "method": "<com.android.volley.toolbox.JsonObjectRequest: void <init>(int,java.lang.String,org.json.JSONArray,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parameterIndexes":[2]
+      },
+      {
+        "method": "<com.android.volley.toolbox.JsonArrayRequest: void <init>(int,java.lang.String,org.json.JSONArray,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parameterIndexes":[2]
+      },
+      {
+        "method": "<com.android.volley.toolbox.JsonArrayRequest: void <init>(int,java.lang.String,org.json.JSONObject,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parameterIndexes":[2]
+      }
+    ]
+}

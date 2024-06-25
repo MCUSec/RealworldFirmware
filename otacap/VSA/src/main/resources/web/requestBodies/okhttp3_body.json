@@ -1,0 +1,33 @@
+{
+  "methods":
+  [
+    {
+      "method":"<okhttp3.Request$Builder: okhttp3.Request$Builder addHeader(java.lang.String,java.lang.String)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method":"<okhttp3.Request$Builder: okhttp3.Request$Builder delete(okhttp3.RequestBody)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<okhttp3.Request$Builder: okhttp3.Request$Builder header(java.lang.String,java.lang.String)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method":"<okhttp3.Request$Builder: okhttp3.Request$Builder patch(okhttp3.RequestBody)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<okhttp3.Request$Builder: okhttp3.Request$Builder post(okhttp3.RequestBody)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<okhttp3.Request$Builder: okhttp3.Request$Builder put(okhttp3.RequestBody)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<okhttp3.Request$Builder: okhttp3.Request$Builder headers(okhttp3.Headers)>",
+      "parameterIndexes":[0]
+    }
+  ]
+}

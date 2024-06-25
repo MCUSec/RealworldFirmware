@@ -1,0 +1,11 @@
+# RXCORES
+0   string      Renesas     _Renesas, RX Family, Image Generator RSU File, Renesas RX Cores
+
+# RXCORES
+0   string      saseneR     _Renesas, RX Family, Image Generator RSU File, Renesas RX Cores
+
+# RXCORES
+0   string      RELFWV2     _Renesas, RX Family, Image Generator RSU File, Renesas RX Cores
+
+# RXCORES
+0   regex      \xfd\x73\x02.{4}\xfd\x73\x0a     _Renesas, RX Family, Image Generator RSU File, Renesas RX Cores

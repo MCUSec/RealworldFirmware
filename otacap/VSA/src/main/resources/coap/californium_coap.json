@@ -1,0 +1,80 @@
+{
+    "methods": [
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: void <init>(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: org.eclipse.californium.core.CoapResponse post(byte[],int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: org.eclipse.californium.core.CoapResponse post(java.lang.String,int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: void post(org.eclipse.californium.core.CoapHandler,java.lang.String,int)>",
+            "parameterIndexes": [0,1,2]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: org.eclipse.californium.core.CoapResponse post(byte[],int,int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: org.eclipse.californium.core.CoapResponse post(java.lang.String,int,int)>",
+            "parameterIndexes": [0,1,2]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: void post(org.eclipse.californium.core.CoapHandler,byte[],int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: void post(org.eclipse.californium.core.CoapHandler,byte[],int,int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: void post(org.eclipse.californium.core.CoapHandler,java.lang.String,int,int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: void get(org.eclipse.californium.core.CoapHandler,int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: org.eclipse.californium.core.CoapResponse get(int)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: void get(org.eclipse.californium.core.CoapHandler)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: org.eclipse.californium.core.CoapResponse put(java.lang.String,int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: org.eclipse.californium.core.CoapResponse put(byte[],int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: void put(org.eclipse.californium.core.CoapHandler,java.lang.String,int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: void put(org.eclipse.californium.core.CoapHandler,byte[],int)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: java.util.Set discover(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: org.eclipse.californium.core.CoapClient setURI(java.lang.String)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<org.eclipse.californium.core.CoapClient: org.eclipse.californium.core.CoapClient$Builder create()>",
+            "parameterIndexes": [-2]
+        }
+    ]
+}

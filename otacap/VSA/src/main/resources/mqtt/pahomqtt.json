@@ -1,0 +1,311 @@
+{
+  "methods":
+  [
+    {
+      "method":"<org.eclipse.paho.android.service.MqttService: java.lang.String getClient(java.lang.String,java.lang.String,java.lang.String,org.eclipse.paho.client.mqttv3.MqttClientPersistence)>",
+      "parameterIndexes":[0,1,2]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttService: org.eclipse.paho.client.mqttv3.IMqttDeliveryToken publish(java.lang.String,java.lang.String,byte[],int,boolean,java.lang.String,java.lang.String)>",
+      "parameterIndexes":[0,1,2,3,5,6]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttService: org.eclipse.paho.client.mqttv3.IMqttDeliveryToken publish(java.lang.String,java.lang.String,org.eclipse.paho.client.mqttv3.MqttMessage,java.lang.String,java.lang.String)>",
+      "parameterIndexes":[0,1,2,3,4]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: void <init>(android.content.Context,java.lang.String,java.lang.String)>",
+      "parameterIndexes":[1,2]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: void <init>(android.content.Context,java.lang.String,java.lang.String,org.eclipse.paho.android.service.MqttAndroidClient.Ack)>",
+      "parameterIndexes":[1,2]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: void <init>(android.content.Context,java.lang.String,java.lang.String,org.eclipse.paho.client.mqttv3.MqttClientPersistence)>",
+      "parameterIndexes":[1,2]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: void <init>(android.content.Context,java.lang.String,java.lang.String,org.eclipse.paho.client.mqttv3.MqttClientPersistence,org.eclipse.paho.android.service.MqttAndroidClient.Ack)>",
+      "parameterIndexes":[1,2]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttDeliveryToken publish(java.lang.String,byte[],int,boolean)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttDeliveryToken publish(java.lang.String,byte[],int,boolean,java.lang.Object,org.eclipse.paho.client.mqttv3.IMqttActionListener)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttDeliveryToken publish(java.lang.String,org.eclipse.paho.client.mqttv3.MqttMessage)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttDeliveryToken publish(java.lang.String,org.eclipse.paho.client.mqttv3.MqttMessage,java.lang.Object,org.eclipse.paho.client.mqttv3.IMqttActionListener)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttService: void subscribe(java.lang.String,java.lang.String,int,java.lang.String)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttService: void subscribe(java.lang.String,String[],int[],java.lang.String,java.lang.String)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttService: void subscribe(java.lang.String,String[],int[],java.lang.String,java.lang.String,org.eclipse.paho.client.mqttv3.IMqttMessageListener[])>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttToken subscribe(java.lang.String,int)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttToken subscribe(String[],int[])>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttToken subscribe(java.lang.String,int,java.lang.Object,org.eclipse.paho.client.mqttv3.IMqttActionListener)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttToken subscribe(String[],int[],java.lang.Object,org.eclipse.paho.client.mqttv3.IMqttActionListener)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttToken subscribe(java.lang.String,int,java.lang.Object,org.eclipse.paho.client.mqttv3.IMqttActionListener,org.eclipse.paho.client.mqttv3.IMqttMessageListener)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttToken subscribe(java.lang.String,int,org.eclipse.paho.client.mqttv3.IMqttMessageListener)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttToken subscribe(String[],int[],org.eclipse.paho.client.mqttv3.IMqttMessageListener[])>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttToken subscribe(String[],int[],java.lang.Object,org.eclipse.paho.client.mqttv3.IMqttActionListener,org.eclipse.paho.client.mqttv3.IMqttMessageListener[])>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttConnectOptions: void setUserName(java.lang.String)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttConnectOptions: void setPassword(char[])>",
+      "parameterIndexes":[0]
+    },
+
+
+
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void <init>(java.lang.String,java.lang.String)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void <init>(java.lang.String,java.lang.String,org.eclipse.paho.client.mqttv3.MqttClientPersistence)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void <init>(java.lang.String,java.lang.String)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void <init>(java.lang.String,java.lang.String,org.eclipse.paho.mqttv5.client.MqttClientPersistence)>",
+      "parameterIndexes":[0,1]
+    },
+
+
+
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void publish(java.lang.String,byte[],int,boolean)>",
+      "parameterIndexes":[0,1,2]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void publish(java.lang.String,org.eclipse.paho.client.mqttv3.MqttMessage)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void subscribe(java.lang.String)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void subscribe(java.lang.String[])>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void subscribe(java.lang.String[],org.eclipse.paho.client.mqttv3.IMqttMessageListener)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void subscribe(java.lang.String[],int[])>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void subscribe(java.lang.String[],int[],org.eclipse.paho.client.mqttv3.IMqttMessageListener)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void subscribe(java.lang.String[],int)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void subscribe(java.lang.String[],int,org.eclipse.paho.client.mqttv3.IMqttMessageListener)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttClient: void subscribe(java.lang.String[])>",
+      "parameterIndexes":[0]
+    },
+
+
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void publish(java.lang.String,byte[],int,boolean)>",
+      "parameterIndexes":[0,1,2]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void publish(java.lang.String,org.eclipse.paho.client.mqttv3.MqttMessage)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void subscribe(java.lang.String)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void subscribe(java.lang.String[])>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void subscribe(java.lang.String[],org.eclipse.paho.client.mqttv3.IMqttMessageListener)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void subscribe(java.lang.String[],int[])>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void subscribe(java.lang.String[],int[],org.eclipse.paho.client.mqttv3.IMqttMessageListener)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void subscribe(java.lang.String[],int)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void subscribe(java.lang.String[],int,org.eclipse.paho.client.mqttv3.IMqttMessageListener)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.IMqttClient: void subscribe(java.lang.String[])>",
+      "parameterIndexes":[0]
+    },
+
+
+
+
+
+
+
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void publish(java.lang.String,byte[],int,boolean)>",
+      "parameterIndexes":[0,1,2]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void publish(java.lang.String,org.eclipse.paho.client.mqttv5.client.MqttMessage)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void subscribe(java.lang.String)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void subscribe(java.lang.String[])>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void subscribe(java.lang.String[],org.eclipse.paho.client.mqttv5.client.IMqttMessageListener)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void subscribe(java.lang.String[],int[])>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void subscribe(java.lang.String[],int[],org.eclipse.paho.client.mqttv5.client.IMqttMessageListener)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void subscribe(java.lang.String[],int)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void subscribe(java.lang.String[],int,org.eclipse.paho.client.mqttv5.client.IMqttMessageListener)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.MqttClient: void subscribe(java.lang.String[])>",
+      "parameterIndexes":[0]
+    },
+
+
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void publish(java.lang.String,byte[],int,boolean)>",
+      "parameterIndexes":[0,1,2]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void publish(java.lang.String,org.eclipse.paho.client.mqttv5.client.MqttMessage)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void subscribe(java.lang.String)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void subscribe(java.lang.String[])>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void subscribe(java.lang.String[],org.eclipse.paho.client.mqttv5.client.IMqttMessageListener)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void subscribe(java.lang.String[],int[])>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void subscribe(java.lang.String[],int[],org.eclipse.paho.client.mqttv5.client.IMqttMessageListener)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void subscribe(java.lang.String[],int)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void subscribe(java.lang.String[],int,org.eclipse.paho.client.mqttv5.client.IMqttMessageListener)>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv5.client.IMqttClient: void subscribe(java.lang.String[])>",
+      "parameterIndexes":[0]
+    },
+
+
+
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttAsyncClient: void <init>(java.lang.String,java.lang.String)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttAsyncClient: void <init>(java.lang.String,java.lang.String,org.eclipse.paho.client.mqttv3.MqttClientPersistence)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method":"<org.eclipse.paho.client.mqttv3.MqttAsyncClient: void <init>(java.lang.String,java.lang.String,org.eclipse.paho.client.mqttv3.MqttClientPersistence,org.eclipse.paho.client.mqttv3.MqttPingSender)>",
+      "parameterIndexes":[0,1]
+    }
+  ]
+}
+
+

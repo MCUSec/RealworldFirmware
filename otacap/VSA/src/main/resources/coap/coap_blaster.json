@@ -1,0 +1,16 @@
+{
+    "methods": [
+        {
+            "method": "<com.google.iot.coap.Client: void <init>(com.google.iot.coap.LocalEndpointManager,java.lang.String)>",
+            "parameterIndexes": [1]
+        },
+        {
+            "method": "<com.google.iot.coap.RequestBuilder: com.google.iot.coap.RequestBuilder setPayload(byte[])>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.google.iot.coap.RequestBuilder: com.google.iot.coap.RequestBuilder changePath(java.lang.String)>",
+            "parameterIndexes": [0]
+        }
+    ]
+}

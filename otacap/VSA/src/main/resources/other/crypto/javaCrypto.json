@@ -1,0 +1,93 @@
+{
+  "methods":
+  [
+    {
+      "method": "<javax.security.auth.kerberos.KerberosKey: void <init>(javax.security.auth.kerberos.KerberosPrincipal,byte[],int,int)>",
+      "parameterIndexes":[0,1,2,3]
+    },
+    {
+      "method": "<javax.security.auth.kerberos.KerberosKey: void <init>(javax.security.auth.kerberos.KerberosPrincipal,char[],java.lang.String)>",
+      "parameterIndexes":[0,1,2]
+    },
+    {
+      "method": "<javax.crypto.spec.SecretKeySpec: void <init>(byte[],int,int,java.lang.String)>",
+      "parameterIndexes":[0,1,2,3]
+    },
+    {
+      "method": "<javax.crypto.spec.SecretKeySpec: void <init>(byte[],java.lang.String)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method": "<javax.crypto.spec.IvParameterSpec: void <init>(byte[])>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method": "<javax.crypto.spec.IvParameterSpec: void <init>(byte[],int,int)>",
+      "parameterIndexes":[0,1,2]
+    },
+    {
+      "method": "<javax.crypto.spec.DESedeKeySpec: void <init>(byte[])>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method": "<javax.crypto.spec.DESedeKeySpec: void <init>(byte[],int)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method": "<javax.crypto.spec.DESKeySpec: void <init>(byte[])>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method": "<javax.crypto.spec.DESKeySpec: void <init>(byte[],int)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method": "<javax.crypto.spec.DHPrivateKeySpec: void <init>(java.math.BigInteger,java.math.BigInteger,java.math.BigInteger)>",
+      "parameterIndexes":[0,1,2]
+    },
+    {
+      "method": "<javax.crypto.spec.DSAPrivateKeySpec: void <init>(java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger)>",
+      "parameterIndexes":[0,1,2,3]
+    },
+    {
+      "method": "<javax.crypto.spec.ECPrivateKeySpec: void <init>(java.math.BigInteger,java.security.spec.ECParameterSpec)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method": "<javax.crypto.spec.PBEKeySpec: void <init>(char[])>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method": "<javax.crypto.spec.PBEKeySpec: void <init>(char[],byte[],int)>",
+      "parameterIndexes":[0,1,2]
+    },
+    {
+      "method": "<javax.crypto.spec.PBEKeySpec: void <init>(char[],byte[],int,int)>",
+      "parameterIndexes":[0,1,2,3]
+    },
+    {
+      "method": "<javax.crypto.spec.PKCS8EncodedKeySpec: void <init>(byte[])>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method": "<javax.crypto.spec.RSAPrivateKeySpec: void <init>(java.math.BigInteger,java.math.BigInteger)>",
+      "parameterIndexes":[0,1]
+    },
+    {
+      "method": "<javax.crypto.spec.X509EncodedKeySpec: void <init>(byte[])>",
+      "parameterIndexes":[0]
+    },
+    {
+      "method": "<javax.crypto.spec.RSAMultiPrimePrivateCrtKeySpec: void <init>(java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.security.spec.RSAOtherPrimeInfo[])>",
+      "parameterIndexes":[0,1,2,3,4,5,6,7,8]
+    },
+    {
+      "method": "<javax.crypto.spec.RSAPrivateCrtKeySpec: void <init>(java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger,java.math.BigInteger)>",
+      "parameterIndexes":[0,1,2,3,4,5,6,7]
+    },
+    {
+      "method": "<javax.crypto.spec.EncodedKeySpec: void <init>(byte[])>",
+      "parameterIndexes":[0]
+    }
+  ]
+}

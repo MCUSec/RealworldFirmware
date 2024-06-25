@@ -1,0 +1,36 @@
+{
+    "methods": [
+        {
+            "method": "<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void <init>(java.lang.String,java.lang.String)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void connect(com.amazonaws.auth.AWSCredentialsProvider,com.amazonaws.mobileconnectors.iot.AWSIotMqttClientStatusCallback)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void connect(java.security.KeyStore,com.amazonaws.mobileconnectors.iot.AWSIotMqttClientStatusCallback)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void publishData(byte[],java.lang.String,com.amazonaws.mobileconnectors.iot.AWSIotMqttQos)>",
+            "parameterIndexes": [0,1]
+        },
+        {
+            "method": "<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void publishData(byte[],java.lang.String,com.amazonaws.mobileconnectors.iot.AWSIotMqttQos,com.amazonaws.mobileconnectors.iot.AWSIotMqttMessageDeliveryCallback,java.lang.Object)>",
+            "parameterIndexes": [0,1,4]
+        },
+        {
+            "method": "<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void publishString(java.lang.String,java.lang.String,com.amazonaws.mobileconnectors.iot.AWSIotMqttQos)>",
+            "parameterIndexes": [0]
+        },
+        {
+            "method": "<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void publishString(java.lang.String,java.lang.String,com.amazonaws.mobileconnectors.iot.AWSIotMqttQos,com.amazonaws.mobileconnectors.iot.AWSIotMqttMessageDeliveryCallback,java.lang.Object)>",
+            "parameterIndexes": [0,1,4]
+        },
+        {
+            "method": "<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void subscribeToTopic(java.lang.String,com.amazonaws.mobileconnectors.iot.AWSIotMqttQos,com.amazonaws.mobileconnectors.iot.AWSIotMqttNewMessageCallback)>",
+            "parameterIndexes": [0]
+        }
+    ]
+}

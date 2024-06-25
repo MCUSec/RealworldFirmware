@@ -1,0 +1,105 @@
+{
+  "methods":
+    [
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle sendRequest(cz.msebera.android.httpclient.impl.client.DefaultHttpClient,cz.msebera.android.httpclient.protocol.HttpContext,cz.msebera.android.httpclient.client.methods.HttpUriRequest,java.lang.String,com.loopj.android.http.ResponseHandlerInterface,android.content.Context)>",
+        "parameterIndexes":[2]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle delete(android.content.Context,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle delete(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle delete(java.lang.String,com.loopj.android.http.RequestParams,com.loopj.android.http.AsyncHttpResponseHandler)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle delete(java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle delete(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],com.loopj.android.http.RequestParams,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle delete(android.content.Context,java.lang.String,cz.msebera.android.httpclient.HttpEntity,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle get(android.content.Context,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle get(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle get(java.lang.String,com.loopj.android.http.RequestParams,com.loopj.android.http.AsyncHttpResponseHandler)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle get(java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle get(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],com.loopj.android.http.RequestParams,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle get(android.content.Context,java.lang.String,cz.msebera.android.httpclient.HttpEntity,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle post(android.content.Context,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle post(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle post(java.lang.String,com.loopj.android.http.RequestParams,com.loopj.android.http.AsyncHttpResponseHandler)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle post(java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle post(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],com.loopj.android.http.RequestParams,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle post(android.content.Context,java.lang.String,cz.msebera.android.httpclient.HttpEntity,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle put(android.content.Context,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle put(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle put(java.lang.String,com.loopj.android.http.RequestParams,com.loopj.android.http.AsyncHttpResponseHandler)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle put(java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle put(android.content.Context,java.lang.String,cz.msebera.android.httpclient.Header[],com.loopj.android.http.RequestParams,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle put(android.content.Context,java.lang.String,cz.msebera.android.httpclient.HttpEntity,java.lang.String,com.loopj.android.http.ResponseHandlerInterface)>",
+        "parameterIndexes":[1]
+      }
+    ]
+}

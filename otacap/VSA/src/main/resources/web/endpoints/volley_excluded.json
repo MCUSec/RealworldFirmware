@@ -1,0 +1,53 @@
+{
+  "methods":
+    [
+      {
+        "method": "<com.android.volley.Request: void <init>(int,java.lang.String,com.android.volley.Response$ErrorListener)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.android.volley.Request: void <init>(java.lang.String,com.android.volley.Response$ErrorListener)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<com.android.volley.toolbox.StringRequest: void <init>(int,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.android.volley.toolbox.StringRequest: void <init>(java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<com.android.volley.toolbox.ImageRequest: void <init>(java.lang.String,com.android.volley.Response$Listener,int,int,android.widget.ImageView$ScaleType,android.graphics.Bitmap$Config,com.android.volley.Response$ErrorListener)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<com.android.volley.toolbox.ImageRequest: void <init>(java.lang.String,com.android.volley.Response$Listener,int,int,android.graphics.Bitmap$Config,com.android.volley.Response$ErrorListener)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<com.android.volley.toolbox.JsonObjectRequest: void <init>(int,java.lang.String,org.json.JSONObject,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.android.volley.toolbox.JsonObjectRequest: void <init>(int,java.lang.String,org.json.JSONArray,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.android.volley.toolbox.JsonObjectRequest: void <init>(java.lang.String,org.json.JSONObject,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<com.android.volley.toolbox.JsonArrayRequest: void <init>(java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parameterIndexes":[0]
+      },
+      {
+        "method": "<com.android.volley.toolbox.JsonArrayRequest: void <init>(int,java.lang.String,org.json.JSONArray,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parameterIndexes":[1]
+      },
+      {
+        "method": "<com.android.volley.toolbox.JsonArrayRequest: void <init>(int,java.lang.String,org.json.JSONObject,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)>",
+        "parameterIndexes":[1]
+      }
+    ]
+}
