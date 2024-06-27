@@ -1,5 +1,5 @@
-protobuf
-intelhex
-esptool
-yara-python
-pyelftools
+protobuf==3.6.1
+intelhex==2.3.0
+esptool==4.7.0
+yara-python==4.5.1
+pyelftools==0.30
