@@ -1,7 +1,7 @@
 
-A Artifact Appendix  
+# A Artifact Appendix  
 
-A.2 Description & Requirements  
+## A.2 Description & Requirements  
 This section provides all the information necessary to recreate
 the same experimental setup to run the artifact. Our artifact
 includes 1) tools to analyze Android APKs to extract URLs
@@ -18,35 +18,35 @@ misuse. Therefore, only the tools will be released. The
 firmware dataset is only provided temporarily during the AE
 process and will be deleted afterwards.
 
-A.2.2 Hardware dependencies  
+### A.2.2 Hardware dependencies  
 A machine with an x86-64 CPU and at least 24 GB of memory
 and 60 GB of free storage is recommended.
 
-A.2.3 Software dependencies  
+### A.2.3 Software dependencies  
 A Linux environment is needed. While all major distributions
 should be supported, we recommend Ubuntu ≥ 20.04. Our
 artifacts have been tested on Ubuntu 22.04 LTS. For module
 specific dependencies please refer to §A.3.
  
-A.2.4 Benchmarks  
+### A.2.4 Benchmarks  
 • APK dataset: A CSV file containing the names and SHA
-values of the 40,675 APKs used in our experiments.
+values of the 40,675 APKs used in our experiments.  
 • Test dataset: Since it is impractical to run our tools
 against all 40,675 APKs, we selected 20 sample APKs
-in the folder apk-dataset for testing.
+in the folder apk-dataset for testing.  
 • Firmware dataset: The 3,692 firmware images
-collected in our experiments.
+collected in our experiments.  
 
-A.3 Set-up  
+## A.3 Set-up  
 This section describes the steps to set up the experiment envi-
 ronment, assuming a fresh Ubuntu 22.04 installation.
 
-A.3.1 Installation  
+### A.3.1 Installation  
 Install general software dependencies:  
 • sudo add-apt-repository ppa:deadsnakes/ppa  
 • sudo apt -y update  
 • sudo apt install -y openjdk-11-jdk  
-openjdk-17-jdk python3.8 python3-pip curl
+openjdk-17-jdk python3.11 python3-pip curl
 z3 unzip rsync  
 • pip3 install --upgrade pip  
 
@@ -74,7 +74,7 @@ binwalk. To set up its dependencies and install it:
 1. cd $PROJECT_FOLDER/binwalk
 2. Install dependencies:  
 pip3 install -r requirements.txt && sudo
-pip3 install protobuf
+pip3 install protobuf==3.6.1
 3. Install binwalk: python3 setup.py install
   
 Install Ollama with llama3:
@@ -82,12 +82,12 @@ Install Ollama with llama3:
 sh
 2. ollama serve &
 3. ollama pull llama3
-4. pip3 install ollama
+4. pip3 install ollama==0.2.0
   
 In folder $PROJECT_FOLDER/crawler, we have the Crawler.
 To set up its dependencies:  
 1. cd $PROJECT_FOLDER/crawler
-2. Install scrapy: pip3 install scrapy
+2. Install scrapy: pip3 install scrapy==2.11.2
 3. In crawler/httpftp/source/settings.py,
 modify the field FILES_STORE to
 $PROJECT_FOLDER/crawler/httpftp/results/files.
@@ -100,16 +100,12 @@ analysis tool. To set up its dependencies:
 2. cd $PROJECT_FOLDER/FirmFlaw
 3. mkdir logs res db fidb ghidra_projects
 firmwares
-4. Install pyhidra: pip3 install pyhidra
-5. curl -L -O https://github.com/
-NationalSecurityAgency/ghidra/releases/
-download/Ghidra_11.1_build/ghidra_11.1_
-PUBLIC_20240607.zip
+4. Install pyhidra: pip3 install pyhidra==1.2.0
+5. curl -L -O https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_11.1_build/ghidra_11.1_PUBLIC_20240607.zip
 6. unzip ghidra_11.1_PUBLIC_20240607.zip
-7. export GHIDRA_INSTALL_DIR=
-$PROJECT_FOLDER/FirmFlaw/ghidra_11.1_PUBLIC
+7. export GHIDRA_INSTALL_DIR=$PROJECT_FOLDER/FirmFlaw/ghidra_11.1_PUBLIC
 
-A.3.2 Basic Test  
+### A.3.2 Basic Test  
 [OTACap] Extracting OTA URLs from APKs.
 1. cd $PROJECT_FOLDER/otacap/VSA
 2. ./gradlew build -Dorg.gradle.java.home=
@@ -165,8 +161,8 @@ adoption in markdown table format. Additionally, it includes
 detailed descriptions explaining the items in the table and
 their meaning.
 
-A.4 Evaluation workflow  
-A.4.1 Major Claims  
+## A.4 Evaluation workflow  
+### A.4.1 Major Claims  
 
 (C1): OTACap can recover URLs used in firmware update
 from APKs. This is proven by the experiment (E1),
@@ -190,7 +186,7 @@ mitigation adoption rates (Table 10), and library adop-
 tion (Tables 8 and 9). This is proven by the experiment
 (E4) described in Section 7.2 of our paper.  
 
-A.4.2 Experiments  
+### A.4.2 Experiments  
 (E1): [OTACap] [3 human-minutes + 1 to 6 compute-hours]:
 Run OTACap on the APKs stored in apk-dataset.
 How to: We provide a script that runs OTACap on the
@@ -247,7 +243,7 @@ descriptions explaining the items in the table and their
 meanings. It should agree with the tables in Section 7.2
 of our paper.
 
-A.5 Notes on Reusability  
+## A.5 Notes on Reusability  
 Our firmware collection tool downloads firmware using URLs
 obtained from APKs. Because the device manufacturers might
 invalidate the URLs from time to time, the experiment results
