@@ -2,11 +2,14 @@ import argparse
 import paho.mqtt.client as mqtt
 import time
 import jsonlines
+import sys
+import os
 
 sys.path.insert(0,os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from config import config
 
 intermediate_folder = config.get_folder("crawler.intermediate_folder")
+os.makedirs(intermediate_folder, exist_ok=True)
 
 class MyMQTTClass(mqtt.Client):
     apk = None

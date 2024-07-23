@@ -69,6 +69,8 @@ def run_command_on_files():
     global output
 
     directory = config.get_folder("crawler.input_folder")
+    
+    os.makedirs(output, exist_ok=True)
     already_analyzed = os.listdir(output)
 
     for filename in os.listdir(directory):

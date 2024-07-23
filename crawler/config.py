@@ -24,6 +24,8 @@ class Config:
 
         if project_folder_env:
             self.config_data['project_folder'] = project_folder_env
+        else:
+            print("\n!!! ERROR !!! Environment variable PROJECT_FOLDER not set.\n")
 
     def get(self, key, default=None):
         keys = key.split('.')

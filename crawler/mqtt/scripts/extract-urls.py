@@ -67,6 +67,9 @@ def main():
     # folder to store the results of scrapy 
     output_folder = config.get_folder("crawler.output_folder")
 
+    if not os.path.exists(input_folder):
+        return
+    
     for file in os.listdir(input_folder):
 
         file_path = os.path.join(input_folder, file)
