@@ -125,6 +125,45 @@ There is another running example for TI, and you can try it with
 make run PATH=examples/TI/oad.bin MCU=TI
 ```
 
+
+## Build Ghidra JAR from Source (In Case Download Link Become Invalid)
+
+If the download links are broken, you can build Ghidra JAR from source:
+
+**Prerequisites:**
+- Java 21 (OpenJDK recommended)
+- Git
+- Build tools (make, gcc, etc.)
+
+**Step-by-step compilation:**
+
+```shell
+# 1. Clone the Ghidra repository
+git clone https://github.com/NationalSecurityAgency/ghidra.git
+cd ghidra
+
+# 2. (Optional) Checkout the specific commit tested in this project (Ghidra 11.5 DEV)
+git checkout a09bd1ee34
+
+# 3. Download dependencies
+./gradlew --init-script gradle/support/fetchDependencies.gradle
+
+# 4. Build Ghidra distribution
+./gradlew buildGhidra
+
+# 5. The built distribution will be located at:
+# build/dist/ghidra_11.5_DEV/
+
+# 6. Set environment variable
+export GHIDRA_INSTALL_DIR=./build/dist/ghidra_11.5_DEV
+
+# 7. Optional: Create a portable JAR file
+cd build/dist/ghidra_11.5_DEV
+./support/buildGhidraJar
+# This creates ghidra.jar (221MB) for headless operations
+```
+
+
 ## Citation
 
 If you create a research work that uses our work, please cite our paper:
