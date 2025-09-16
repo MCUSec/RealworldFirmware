@@ -1,3 +1,31 @@
+# Repository for "Unveiling IoT Security in Reality: A Firmware-Centric Journey"
+
+This repository contains the code and resources accompanying the paper:   
+
+**"Unveiling IoT Security in Reality: A Firmware-Centric Journey"**  
+Published in USENIX Security 24'  
+The materials here are provided to support reproducibility and further research.  
+
+---
+
+## Citation
+
+If you use this code or data in your research, please cite our paper:
+
+```bibtex
+@inproceedings{299874,
+ author = {Nicolas Nino and Ruibo Lu and Wei Zhou and Kyu Hyung Lee and Ziming Zhao and Le Guan},
+ title = {Unveiling {IoT} Security in Reality: A {Firmware-Centric} Journey},
+ booktitle = {33rd USENIX Security Symposium (USENIX Security 24)},
+ year = {2024},
+ isbn = {978-1-939133-44-1},
+ address = {Philadelphia, PA},
+ pages = {5609--5626},
+ url = {https://www.usenix.org/conference/usenixsecurity24/presentation/nino},
+ publisher = {USENIX Association},
+ month = aug
+}
+```
 
 # A Artifact Appendix  
 
